@@ -1,14 +1,30 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<Navbar />
+<main>
+  <router-view :key="$route.fullPath"/>
+ </main>
 </template>
+<script>
+import Navbar from "./components/Navbar.vue";
+export default {
+  components: { Navbar },
+  };
+</script>
 
 <style>
+
+@import url( "http://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family:"Nunito,sans-serif" ; */
+  /* background-color:#f5f5f5; */
+  
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Nunito",sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -22,9 +38,11 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration:none; ;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #89CFF0;
+  text-decoration: none;
 }
 </style>
