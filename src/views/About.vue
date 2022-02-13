@@ -3,7 +3,7 @@
  <div class="container">
     
 <div class="row row1 d-flex justify-content-center">
-    <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">ABOUT ME</span> </h1>
+    <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">About Me</span> </h1>
   <div class="box d-flex justify-content-center  col-sm-6 ">
       <img class="photo" src="https://i.postimg.cc/Y9PqgTJG/Muneeb-min.jpg" alt="" >
   </div>
@@ -48,7 +48,7 @@ export default {
 } */
 
 h1{
-    padding-top:130px;
+    padding-top:110px;
 }
 
 .container {
@@ -65,10 +65,10 @@ h1{
     height: 350px;
     width: 350px;
     object-fit:cover;
-    
+      box-shadow:8px 8px 15px #e4e4e4;
     margin-right: -100px;
     margin-top:120px; 
-    border: 5px solid white;
+    /* border: 5px solid white; */
     border-radius:20px;
 }
 

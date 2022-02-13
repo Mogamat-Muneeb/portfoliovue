@@ -1,17 +1,17 @@
 <template>
- <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">RESUME</span> </h1>
+ <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Resume</span> </h1>
        
       <h1  style="color:#89CFF0;">Education</h1>
       <div class="card">
     <div class="info">
-        <h4 class="date" style="font-size:13px;font-weight:bold; color:#89CFF0;"><i class="fas fa-graduation-cap"></i> 2015-2020:</h4>
+        <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i> 2015-2020:</h4>
         <h3 class="title" style="font-weight:bold;color:#FF7779;">Vootrekker High School</h3>
         <p style="font-weight:16px;">I started and matriculated at Voortrekker High School in Kenilworth. I was part of the RCL leadership team from Gr.10 to Gr.12 and played First-Team rugby since Gr.10 as a Scrumhalf. I was the Deputy Head Boy in Matric. </p>
     </div>
       </div>
       <div class="card">
            <div class="info">
-         <h4 class="date" style="font-size:13px;font-weight:bold; color:#89CFF0;"><i class="fas fa-graduation-cap"></i>  2021-Present:</h4>
+         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i>  2021-Present:</h4>
         <h3 class="title" style="font-weight:bold;color:#FF7779;">Life Choices Coding Academy</h3>
         <p style="font-weight:16px;">A Bootcamp program that provides you with the core fundamentals of Web Development, learning coding languages such as HTML, CSS, Javascript, and more coding techniques. We taught interpersonal and self-development skills to take us further in life. </p>
     </div>
@@ -19,21 +19,21 @@
     <h1  style="color:#89CFF0;">Work & Experience</h1>
       <div class="card">
            <div class="info">
-         <h4 class="date" style="font-size:13px;font-weight:bold; color:#89CFF0;"><i class="fas fa-briefcase"></i> 2014-2018:</h4>
+         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-briefcase"></i> 2014-2018:</h4>
         <h3 class="title" style="font-weight:bold;color:#FF7779;">Project Maritime Youth Naval Cadet School</h3>
         <p style="font-weight:16px;">Every Saturday for four years, I spent my day practicing naval and survival skills. I was also an instructor and PTI officer. I improved my leadership and discipline due to harsh and intense physical training.</p>
     </div>
       </div>
         <div class="card">
            <div class="info">
-         <h4 class="date" style="font-size:13px;font-weight:bold; color:#89CFF0;"><i class="fas fa-briefcase"></i> Start of 2021:</h4>
+         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-briefcase"></i> Start of 2021:</h4>
         <h3 class="title" style="font-weight:bold;color:#FF7779;">Kieth Sealants and Projects</h3>
         <p style="font-weight:16px;"> I was an apprentice, learning general building techniques.</p>
     </div>
       </div>
        <div class="card">
            <div class="info">
-        <h4 class="date" style="font-size:13px;font-weight:bold; color:#89CFF0;"><i class="fas fa-briefcase"></i> 2020-present:</h4>
+        <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-briefcase"></i> 2020-present:</h4>
         <h3 class="title" style="font-weight:bold;color:#FF7779;">Volunteering</h3>
         <p style="font-weight:16px;"> Started tutoring and helping out at Muslim school, teaching kids how to recite the Quran and fundamentals of Islam and tutoring mathematics to grade 9 learners.</p>
     </div>
@@ -50,14 +50,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .fas{
 
  font-size:17px;
 
 }
 h1.headin{
-    padding-top:130px;
+    padding-top:110px;
 }
 h1{
   padding-top:50px;
