@@ -79,7 +79,7 @@ a {
 }
 }  */
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     #nav{
         height:100%;
         left: -100vw;

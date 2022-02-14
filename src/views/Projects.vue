@@ -1,8 +1,7 @@
 <template>
- <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">PROJECTS</span> </h1>
+ <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Projects</span> </h1>
    
-             
- 
+
   <div class="container">
      <div v-for="project in projects" :key="project.id" class="project">
         <div class="proj_box">
@@ -54,6 +53,7 @@ export default {
 h1.headin{
     padding-top:110px;
 }
+
 .container {
     display:flex;
     justify-content: center;
@@ -232,5 +232,12 @@ h1.headin{
 
 h1{
   margin-top:40px;
+}
+
+
+@media only screen and (max-width: 494px) {
+    h1.headin{
+    padding-top:3px;
+}
 }
 </style>

@@ -84,4 +84,10 @@ h1{
     padding-left: 20px;
 }
 
+
+@media only screen and (max-width: 494px) {
+    h1.headin{
+    padding-top:50px;
+}
+}
 </style>

@@ -118,7 +118,7 @@ h1.headin{
 }
 
 .content {
-    
+ 
   position: relative;
   width: 90%;
   max-width: 400px;
@@ -207,5 +207,12 @@ h1.headin{
 
 .fadeIn-right{
   left: 80%;
+}
+
+
+@media only screen and (max-width: 494px) {
+    h1.headin{
+    padding-top:50px;
+}
 }
 </style>

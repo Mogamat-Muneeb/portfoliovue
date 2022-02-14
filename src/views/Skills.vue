@@ -74,4 +74,10 @@ h1.headin{
   object-fit: cover;
 } */
 
+@media only screen and (max-width: 494px) {
+    h1.headin{
+    padding-top:50px;
+}
+}
+
 </style>

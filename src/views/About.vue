@@ -125,6 +125,23 @@ h1{
 ul li, ol li {
     list-style: none;
 }
+
+
+@media screen and (max-width: 494px){
+    .photo{
+
+    
+    height: 270px;
+    width: 270px;
+    object-fit:cover;
+    box-shadow:8px 8px 15px #e4e4e4;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top:120px;  */
+    /* border: 5px solid white; */
+    /* border-radius:20px; */
+}
+}
 /* 
 @media only screen and (max-width: 1000px){
   .photo {
@@ -197,4 +214,9 @@ ul li, ol li {
 } */
 
 
+@media only screen and (max-width: 494px) {
+    h1.headin{
+    padding-top:50px;
+}
+}
 </style>
