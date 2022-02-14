@@ -82,7 +82,7 @@ a {
 @media screen and (max-width:700px) {
     #nav{
         height:100%;
-        left: -150vw;
+        left: -190vw;
         display:flex;
         flex-direction: column;
         justify-content: center;
