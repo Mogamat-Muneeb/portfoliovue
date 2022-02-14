@@ -79,8 +79,8 @@ img{
 
 @media screen and (max-width: 494px){
 .name{
-  padding-top:20px;
-  padding-left:30px;
+  padding-top:10px;
+  padding-left:10px;
 }
 img{
   height:250px;
