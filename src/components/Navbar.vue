@@ -95,6 +95,7 @@ a {
     }
     #nav-btn{
         display:block;
+        margin-right:20px;
 
         
     }
