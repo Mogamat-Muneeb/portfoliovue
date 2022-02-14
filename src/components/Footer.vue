@@ -34,7 +34,7 @@ export default {
 .social1-menu {
   position: relative;
   background: #f5f5f5;
-    box-shadow:8px 8px 15px #f5f1f1;
+    box-shadow:8px 8px 15px #ababab;
   height:130px;
 }
 
