@@ -106,6 +106,7 @@ export default {
 </script>
 
 <style scoped>
+ 
 textarea#message.form-control {
     height: 120px;
 }
@@ -175,12 +176,13 @@ h1.headin{
     height: auto;
     padding: 13px 52px;
     font-size: 15px;
+    
 }
 
 .btn-mod.btn-border {
-    color: #2c3e50;
-    border: 1px solid #000000;
-    background: transparent;
+    color: #fff;
+    border: 1px solid #FF7779;
+    background: #FF7779;
 }
 
 .btn-mod, a.btn-mod {
@@ -211,8 +213,8 @@ h1.headin{
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
     color: white;
-    border-color: #000;
-    background:#FF7779;
+    border-color:#89CFF0 ;
+    background:#89CFF0;
     outline: none;
     
 }
@@ -264,12 +266,14 @@ h1.headin{
   display:flex;
   justify-content: space-around;
   
+  
 }
 
 .btn{
-  
+    
     padding: 25px 43px;
     border-radius: 30px;
+
     
 
 

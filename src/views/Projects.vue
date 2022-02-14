@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 h1.headin{
-    padding-top:110px;
+    padding-top:80px;
 }
 
 .container {

@@ -8,7 +8,7 @@
       <img class="content-image" :src="testimonial.img">
       <div class="content-details fadeIn-bottom">
         <h3 class="content-title">{{testimonial.title}}</h3>
-        <p class="content-text">{{testimonial.relation}}</p>
+        <h5 class="content-text">{{testimonial.relation}}</h5>
          <p class="content-text">{{testimonial.quote}}</p>
          <h6>{{testimonial.email}}</h6>
       </div>
@@ -179,9 +179,15 @@ h1.headin{
   left: 50%;
   opacity: 1;
 }
+h5{
+  color: #FF7779;
+}
 
-.content-details h3{
+h6{
   color: #fff;
+}
+.content-details h3{
+  color: #89CFF0;
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
