@@ -117,7 +117,7 @@ h1.headin{
 
 
 .text1 {
-  color: rgba(255, 255, 255, 1);
+  color: #89CFF0;
   font-size: 20px;
   position: absolute;
   top: 30%;
@@ -132,11 +132,11 @@ h1.headin{
   
 }
 .fab:hover{
-    color: #f01212;
+    color:#FF7779;
      
 }
 .far:hover{
-    color: #f01212;
+    color:#FF7779;
      
 }
 
@@ -199,7 +199,7 @@ h1.headin{
 }
 
 .text1 {
-  color: rgba(255, 255, 255, 1);
+  color: #89CFF0;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -215,13 +215,16 @@ h1.headin{
   
 }
 .fab{
+  padding-top: 25px;
     font-size:30px;
     display: column;
     color: white;
     float: left;
     padding-left: 15px;
+      padding-right: 15px;
 }
 .far{
+    padding-top: 25px;
     font-size:30px;
     display: column;
     color: white;

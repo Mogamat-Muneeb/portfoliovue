@@ -98,12 +98,12 @@ h1.headin{
   float: left;
   width: 100%;
 } */
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 640px){
   .container{
     display: block;
     width: 100%;
   }
-}
+} */
 /* 
 @media screen and (min-width: 900px){
   .container{
@@ -219,6 +219,20 @@ h6{
 @media only screen and (max-width: 494px) {
     h1.headin{
     padding-top:50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 }
 </style>
