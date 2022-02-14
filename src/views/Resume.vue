@@ -89,5 +89,9 @@ h1{
     h1.headin{
     padding-top:50px;
 }
+
+h3{
+  font-size:20px;
+}
 }
 </style>
