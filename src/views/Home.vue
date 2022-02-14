@@ -84,16 +84,16 @@ img{
   padding-left:10px;
 }
 img{
-  height:300px;
+  height:350px;
   object-fit: cover;
-  margin-right: 130px;
-  margin-left:130px;
+  margin-right: 110px;
+  margin-left:110px;
   
 }
 .container {
    height:100vh;
-  padding-top: 110px;
-  width:100vw;
+  padding-top: 15px;
+  /* width:100vw; */
 }
 
 }
