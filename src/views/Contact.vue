@@ -123,6 +123,7 @@ h1.headin{
 .containe {
   display:flex;
   padding: none;
+  margin-bottom:50px;
 }
 /* contact */
 #success-message {

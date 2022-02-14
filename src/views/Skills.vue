@@ -87,6 +87,7 @@ export default {
   border-radius: 6px;
   position: absolute;
   z-index: 1;
+  
 }
 
 
@@ -111,6 +112,7 @@ h1.headin{
   border-radius:10px;
   border:5px solid white;
   box-shadow:8px 8px 15px #e4e4e4;
+  margin-bottom:50px;
 }
 
 img{

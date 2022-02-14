@@ -60,6 +60,7 @@ export default {
 .container {
    /* height:100vh; */
   padding-top: 150px;
+  margin-bottom:50px;
  
 }
 /* .row{
@@ -88,7 +89,11 @@ img{
   padding-right: 130px;
   padding-left:130px;
 }
-
+.container {
+   height:100vh;
+  padding-top: 150px;
+ 
+}
 
 }
 </style>

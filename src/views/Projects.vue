@@ -61,6 +61,7 @@ h1.headin{
     overflow-y: hidden;
     margin-top:15px ;
     position: initial;
+    margin-bottom:50px;
     /* height:70vh; */
 }
 .project{

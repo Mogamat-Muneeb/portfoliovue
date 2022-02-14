@@ -10,7 +10,7 @@
             <!-- <li><a href="https://app.netlify.com/teams/mogamat-muneeb/overview" target="blank"><i class="fa fa-link" target="blank"></i></a></li> -->
 
         </ul>
-        <p class="p">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Mogamat Muneeb Davids</p>
+        <p class="p fw-bold ">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Mogamat Muneeb Davids</p>
   </div>
 <!-- </footer> -->
  
@@ -23,18 +23,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 
 
 .p{
-    padding-top: 150px;
-    color: white;
+    padding-top: 100px;
+    color: #89CFF0;
 }
 .social1-menu {
   position: relative;
-  background-color:#2c3e50;
-  height:200px;
+  background: #f5f5f5;
+    box-shadow:8px 8px 15px #f5f1f1;
+  height:130px;
 }
 
 
@@ -46,7 +47,7 @@ export default {
     margin: 0;
     transform: translate(-50%, -50%);
     display: flex;
-    padding-bottom:50px;
+    padding-bottom:30px;
     
 
 }
@@ -103,11 +104,11 @@ export default {
 .social1-menu ul li:nth-child(3) a:hover{
     background-color: #0077b5;
 }
-.social1-menu ul li:nth-child(4) a:hover{
+/* .social1-menu ul li:nth-child(4) a:hover{
     background-color: #000;
 }
 .social1-menu ul li:nth-child(5) a:hover{
     background-color: rgb(0, 187, 255);
-}
+} */
 
 </style>

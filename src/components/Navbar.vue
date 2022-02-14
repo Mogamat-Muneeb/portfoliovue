@@ -82,13 +82,13 @@ a {
 @media screen and (max-width:700px) {
     #nav{
         height:100%;
-        left: -190vw;
+        left: -200vw;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition:left 0.1s linear;
-            gap: 40px;
+        transition:left 0.7s linear;
+        gap: 40px;
     }
     #nav.active{
         left:0;

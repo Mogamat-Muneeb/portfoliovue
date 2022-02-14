@@ -57,6 +57,7 @@ h1.headin{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom:50px;
 
 }
 /* 
