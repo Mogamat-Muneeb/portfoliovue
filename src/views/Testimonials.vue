@@ -122,12 +122,12 @@ h1.headin{
   position: relative;
   width: 90%;
   max-width: 400px;
-  margin: auto;
-  overflow: hidden;
+  margin: 10px;
+  /* overflow: hidden; */
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  /* background: rgba(0,0,0,0.7); */
   position: absolute;
   height: 300px;
   width: 290px;

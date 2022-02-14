@@ -76,4 +76,19 @@ img{
   object-fit: cover;
   padding-right: 130px;
 }
+
+@media screen and (max-width: 494px){
+.name{
+  padding-top:20px;
+  padding-left:30px;
+}
+img{
+  height:250px;
+  object-fit: cover;
+  padding-right: 130px;
+  padding-left:130px;
+}
+
+
+}
 </style>

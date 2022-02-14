@@ -67,4 +67,11 @@ h1.headin{
       box-shadow:8px 8px 15px #e4e4e4;
 }
 
+
+ /* .logo{
+  width:70px;
+  height:70px;
+  object-fit: cover;
+} */
+
 </style>

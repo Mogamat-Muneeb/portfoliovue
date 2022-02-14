@@ -3,11 +3,13 @@
 <main>
   <router-view :key="$route.fullPath"/>
  </main>
+ <Footer />
 </template>
 <script>
 import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 export default {
-  components: { Navbar },
+  components: { Navbar,Footer } 
   };
 </script>
 
@@ -45,4 +47,8 @@ export default {
   color: #89CFF0;
   text-decoration: none;
 }
+
+
+
+
 </style>
