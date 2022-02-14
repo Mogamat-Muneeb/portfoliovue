@@ -82,12 +82,16 @@ img{
 .name{
   padding-top:10px;
   padding-left:10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 img{
-  height:250px;
+  height:300px;
   object-fit: cover;
-  padding-right: 130px;
-  padding-left:130px;
+  /* padding-right: 130px;
+  padding-left:130px; */
+   margin-right: 110px;
+  margin-left: 110px;
 }
 .container {
    height:100vh;
