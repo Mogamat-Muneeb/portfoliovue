@@ -96,8 +96,7 @@ a {
     #nav-btn{
         display:block;
       
-        margin-right:150px;
-        overflow-y: hidden;
+    
 
         
     }
