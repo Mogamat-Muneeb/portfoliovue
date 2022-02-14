@@ -96,8 +96,8 @@ a {
     #nav-btn{
         display:block;
       
-        margin-right:15px;
-        overflow-x: hidden;
+        margin-right:150px;
+        overflow-y: hidden;
 
         
     }

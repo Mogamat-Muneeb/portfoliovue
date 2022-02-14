@@ -82,21 +82,18 @@ img{
 .name{
   padding-top:10px;
   padding-left:10px;
-  margin-right: auto;
-  margin-left: auto;
 }
 img{
   height:300px;
   object-fit: cover;
-  /* padding-right: 130px;
-  padding-left:130px; */
-   margin-right: 110px;
-  margin-left: 110px;
+  margin-right: 130px;
+  margin-left:130px;
+  
 }
 .container {
    height:100vh;
-  padding-top: 150px;
- 
+  padding-top: 110px;
+  width:100vw;
 }
 
 }
