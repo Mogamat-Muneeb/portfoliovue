@@ -5,7 +5,7 @@
         <h6 style="font-size: 15px;color: #89CFF0;">HEY! I AM</h6>
         <h1  style="font-size:60px;">M.Muneeb Davids !</h1>
         <!-- <h1 class="type" style="color:#FF7779;">An Aspiring Full Stack Developer</h1> -->
-        <h1  style="color:;font-size:20px;">An Aspiring<span class="type">
+        <h1  style="color:;font-size:20px;">An Aspiring <span class="type">
   <span  style="color:#FF7779;font-size:20px;">Full Stack Developer</span>
     
   </span> </h1>
@@ -70,6 +70,12 @@ img{
   padding-right: 130px;
   
 }
+h6{
+  font-weight: 700;
+}
+h1{
+  font-weight:700;
+}
 @media screen and (max-width: 494px){
 .name{
   padding-top:10px;
@@ -82,7 +88,7 @@ img{
   padding-left:130px;
 }
 .container {
-   height:100vh;
+   height:80vh;
   /* padding-top: 150px; */
  
 }

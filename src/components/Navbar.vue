@@ -83,6 +83,7 @@ a {
 
 @media screen and (max-width:700px) {
     #nav{
+        position: fixed;
         height:100%;
         left: -200vw;
         display:flex;
@@ -97,7 +98,7 @@ a {
     }
     #nav-btn{
         display:block;
-      
+        z-index: 100;
         /* margin-right:150px;
         overflow-y: hidden; */
 
