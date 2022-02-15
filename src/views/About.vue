@@ -150,7 +150,7 @@ ul li, ol li {
 
 
 .pro-title{
-    margin-left: -100px;
+    margin-left: -70px;
 }
 
 }
