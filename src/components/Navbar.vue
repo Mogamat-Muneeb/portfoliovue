@@ -59,10 +59,12 @@ export default {
     box-shadow:8px 8px 15px #e4e4e4;
     padding: 10px;
     border-radius: 50%;
+    height: 50px;
+    width: 50px;
     border: none;
     outline: none;
     display: none;
-    overflow: hidden;
+    overflow-x: hidden;
 }
  /* #nav{
     padding: 10px;
