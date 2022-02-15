@@ -127,7 +127,7 @@ ul li, ol li {
 }
 
 
-@media screen and (max-width: 493px){
+@media screen and (max-width: 494px){
     .photo{
 
     
@@ -147,9 +147,11 @@ ul li, ol li {
     h1.headin{
     padding-top:50px;
 }
-.about-profile li{
-   display:flex;
-   width:150%;
+
+
+.pro-title{
+    margin-left: -100px;
 }
+
 }
 </style>
