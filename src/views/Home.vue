@@ -64,7 +64,6 @@ export default {
   padding-top:135px;
   padding-left: 135px;
 }
-
 img{
   height:450px;
   object-fit: cover;
@@ -77,14 +76,14 @@ img{
   padding-left:10px;
 }
 img{
-  height:350px;
+  height:250px;
   object-fit: cover;
-  padding-right: 105px;
-  padding-left:105px;
+  padding-right: 130px;
+  padding-left:130px;
 }
 .container {
    height:100vh;
-  padding-top: 90px;
+  /* padding-top: 150px; */
  
 }
 }
