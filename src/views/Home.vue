@@ -81,11 +81,11 @@ img{
   padding-right: 130px;
   padding-left:130px;
 }
-/* .container {
+.container {
    height:100vh;
-  padding-top: 150px;
+  /* padding-top: 150px; */
  
-} */
+}
 }
 
 </style>

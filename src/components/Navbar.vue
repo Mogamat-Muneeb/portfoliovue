@@ -54,7 +54,7 @@ export default {
 #nav-btn{
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 30px;
     background: #f5f5f5;
     box-shadow:8px 8px 15px #e4e4e4;
     padding: 10px;
