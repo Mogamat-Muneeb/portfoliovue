@@ -222,7 +222,7 @@ h1.headin{
 
 @media only screen and (max-width: 500px) {
     .btn-mod.btn-large {
-       padding: 11px 21px;
+       padding: 11px 15px;
        font-size: 14px;
     }
   
