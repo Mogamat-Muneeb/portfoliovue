@@ -30,11 +30,9 @@ export default {
 
 <style scoped>
 
-
 .type {
-  display: inline-flex;
+ display: inline-flex;
 }
-
 .type span {
   word-break: break-all;
   height: 1em;
@@ -46,21 +44,16 @@ export default {
   content: " ";
   display: inline-block;
 }
-
 @keyframes t {
   90%,
   100% {
     width: 100%;
   }
 }
-
-
-
-
 .container {
    /* height:100vh; */
   padding-top: 150px;
-  margin-bottom:50px;
+  /* margin-bottom:50px; */
  
 }
 /* .row{
@@ -71,30 +64,26 @@ export default {
   padding-top:135px;
   padding-left: 135px;
 }
-
 img{
   height:450px;
   object-fit: cover;
   padding-right: 130px;
 }
-
 @media screen and (max-width: 494px){
 .name{
   padding-top:10px;
   padding-left:10px;
 }
 img{
-  height:350px;
+  height:250px;
   object-fit: cover;
-  margin-right: 110px;
-  margin-left:110px;
-  
+  padding-right: 130px;
+  padding-left:130px;
 }
-.container {
+/* .container {
    height:100vh;
-  padding-top: 15px;
-  /* width:100vw; */
-}
-
+  padding-top: 150px;
+ 
+} */
 }
 </style>
