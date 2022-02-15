@@ -127,7 +127,7 @@ ul li, ol li {
 }
 
 
-@media screen and (max-width: 494px){
+@media screen and (max-width: 493px){
     .photo{
 
     
@@ -149,7 +149,7 @@ ul li, ol li {
 }
 .about-profile li{
    display:flex;
-   width:100%;
+   width:150%;
 }
 }
 </style>
