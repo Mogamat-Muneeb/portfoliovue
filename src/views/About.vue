@@ -148,7 +148,8 @@ ul li, ol li {
     padding-top:50px;
 }
 .about-profile li{
-    margin-left: 10px;
+   display:flex;
+   width:100%;
 }
 }
 </style>
