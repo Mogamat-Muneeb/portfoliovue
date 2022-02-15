@@ -53,7 +53,7 @@ export default {
 .container {
    /* height:100vh; */
   padding-top: 150px;
-  /* margin-bottom:50px; */
+  margin-bottom:50px;
  
 }
 /* .row{
@@ -68,6 +68,7 @@ img{
   height:450px;
   object-fit: cover;
   padding-right: 130px;
+  
 }
 @media screen and (max-width: 494px){
 .name{
@@ -86,4 +87,5 @@ img{
  
 } */
 }
+
 </style>
