@@ -1,7 +1,7 @@
 <template>
 
 
-<h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Contact Me</span> </h1>
+<h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Contact Me</span> </h1>
   <div class="containe d-flex justify-content-center" id="contact">
 <!-- 
     <div class="row">
@@ -158,7 +158,7 @@ h1.headin{
     color: #333;
     background-color: #fff;
     background-image: none;
-    border: solid 1px #89CFF0;
+    border: solid 1px #9dd8e0;
     -webkit-box-shadow: none;
     /* box-shadow: none; */
      box-shadow:8px 8px 15px #e4e4e4;
@@ -166,7 +166,7 @@ h1.headin{
 
 
 .form-group .form-control:hover {
-	border: solid 1px#FF7779;
+	border: solid 1px#1e90ff;
 }
 
 /* textarea {
@@ -182,8 +182,8 @@ h1.headin{
 
 .btn-mod.btn-border {
     color: #fff;
-    border: 1px solid #FF7779;
-    background: #FF7779;
+    border: 1px solid #1e90ff;
+    background: #1e90ff;
 }
 
 .btn-mod, a.btn-mod {
@@ -214,8 +214,8 @@ h1.headin{
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
     color: white;
-    border-color:#89CFF0 ;
-    background:#89CFF0;
+    border-color:#9dd8e0 ;
+    background:#9dd8e0;
     outline: none;
     
 }
@@ -249,7 +249,7 @@ h1.headin{
 .call-me{
   display:flex;
   justify-content: center;
-  color:#89CFF0;
+  color:#9dd8e0;
 }
 
 .call-me-1{
@@ -261,7 +261,7 @@ h1.headin{
   padding-top: 15px;
 }
 .fas{
-  color:#FF7779;
+  color:#1e90ff;
 }
 .b{
   display:flex;

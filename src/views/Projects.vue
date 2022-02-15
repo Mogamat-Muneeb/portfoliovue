@@ -1,5 +1,5 @@
 <template>
- <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Projects</span> </h1>
+ <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Projects</span> </h1>
    
 
   <div class="container">
@@ -118,7 +118,7 @@ h1.headin{
 
 
 .text1 {
-  color: #89CFF0;
+  color: #00bfff;
   font-size: 20px;
   position: absolute;
   top: 30%;
@@ -133,11 +133,11 @@ h1.headin{
   
 }
 .fab:hover{
-    color:#FF7779;
+    color:#1e90ff;
      
 }
 .far:hover{
-    color:#FF7779;
+    color:#1e90ff;
      
 }
 
@@ -200,7 +200,7 @@ h1.headin{
 }
 
 .text1 {
-  color: #89CFF0;
+  color: #00bfff;
   font-size: 20px;
   position: absolute;
   top: 50%;

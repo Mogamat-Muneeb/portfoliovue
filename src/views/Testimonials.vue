@@ -1,5 +1,5 @@
 <template>
-   <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Testimonials</span> </h1>
+   <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Testimonials</span> </h1>
    <div class="container">
        <div v-for="testimonial in testimonials" :key="testimonial" class="row">
   <div class="content">
@@ -60,6 +60,8 @@ h1.headin{
   margin-bottom:50px;
 
 }
+
+
 /* 
 .image {
   display: flex;
@@ -145,8 +147,12 @@ h1.headin{
  
 }
 
-.content:hover .content-overlay{
-  opacity: 1;
+.content:hover .content-image{
+  opacity: 0.9;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  filter: brightness(40%);
+  
 }
 
 .content-image{
@@ -181,14 +187,14 @@ h1.headin{
   opacity: 1;
 }
 h5{
-  color: #FF7779;
+  color: #1e90ff;
 }
 
 h6{
   color: #fff;
 }
 .content-details h3{
-  color: #89CFF0;
+  color: #00bfff;
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;

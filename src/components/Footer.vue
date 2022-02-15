@@ -29,7 +29,7 @@ export default {
 
 .p{
     padding-top: 100px;
-    color: #89CFF0;
+    color: #00bfff;
 }
 .social1-menu {
   position: relative;

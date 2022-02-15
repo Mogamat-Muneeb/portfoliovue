@@ -1,5 +1,5 @@
 <template>
-  <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">Skills</span> </h1>
+  <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Skills</span> </h1>
   <div class="container  d-flex justify-content-center">
     <div class="row">
       <div class="col">
@@ -33,7 +33,7 @@
               <span class="logotext">MYSQL</span>
         </div>
          </div>
-         <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">TOOLS</span> </h1>
+         <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">TOOLS</span> </h1>
          <div class="col">
           <div class="logo">
             <img src="../assets/vscode.png">  
@@ -80,7 +80,7 @@ export default {
 .logo .logotext {
   visibility: hidden;
   width: 120px;
-  background-color:#89CFF0;
+  background-color:#00bfff;
   color: #fff;
   text-align: center;
   padding: 5px 0;

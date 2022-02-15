@@ -3,16 +3,16 @@
  <div class="container">
     
 <div class="row row1 d-flex justify-content-center">
-    <h1 class="headin d-flex justify-content-center"><span  style="color:#FF7779;">About Me</span> </h1>
+    <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">About Me</span> </h1>
   <div class="box d-flex justify-content-center  col-sm-6 ">
       <img class="photo" src="https://i.postimg.cc/Y9PqgTJG/Muneeb-min.jpg" alt="" >
   </div>
 
   <div class=" col-sm-6">
-  <h1 class="hi" style="color:#89CFF0;" >Hi Guys!</h1>
-  <h6 class="h d-flex justify-content-start fw-bold" style="color: #FF7779;">Bio:</h6>
+  <h1 class="hi" style="color:#00bfff;" >Hi Guys!</h1>
+  <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;">Bio:</h6>
   <p> I am a person that works hard, trying my best to be punctual at my studies or anything that needs my full attention. I'm a person that is always willing to assist others when in need. I'm very comfortable around lots of people. I'm a confident and open person.</p>
-  <h6  class=" heading fw-bold" style="color: #FF7779;">Where my passion for coding started:</h6>
+  <h6  class=" heading fw-bold" style="color: #1e90ff;">Where my passion for coding started:</h6>
   <p>My passion for the tech/coding industry started when I realized that technology is the future. I always wondered how websites and mobile applications were built that is the main reason I started looking into coding.</p>
  
   <div class="about-profile">   
@@ -116,7 +116,7 @@ h1{
 .about-profile .pro-title:after {
     position: absolute;
     content: ':';
-    color: #89CFF0;
+    color: #00bfff;
     font-size: 14px;
     left: 100px;
    

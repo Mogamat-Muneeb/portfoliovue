@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="name col">
-        <h6 style="font-size: 15px;color: #89CFF0;">HEY! I AM</h6>
+        <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
         <h1  style="font-size:60px;">M.Muneeb Davids !</h1>
         <!-- <h1 class="type" style="color:#FF7779;">An Aspiring Full Stack Developer</h1> -->
-        <h1  style="color:;font-size:20px;">An Aspiring <span class="type">
-  <span  style="color:#FF7779;font-size:20px;">Full Stack Developer</span>
+        <h1  style="color:;font-size:20px;">An Aspiring <span class="blink">
+  <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
     
   </span> </h1>
       </div>
@@ -29,27 +29,25 @@ export default {
 </script>
 
 <style scoped>
+/* .blink {
 
-.type {
- display: inline-flex;
+   display:flex;
+  justify-content: center;
+  flex-direction: column;
+  
+ 
+} */
+
+.blink-hard {
+  animation: pulse 4s infinite;
 }
-.type span {
-  word-break: break-all;
-  height: 1em;
-  width: 0%;
-  overflow: hidden;
-  animation: t 4s linear infinite alternate;
-}
-.type span:before {
-  content: " ";
-  display: inline-block;
-}
-@keyframes t {
-  90%,
-  100% {
-    width: 100%;
+
+@keyframes pulse {
+  50% {
+    opacity: 0;
   }
 }
+
 .container {
    /* height:100vh; */
   padding-top: 150px;
@@ -89,6 +87,7 @@ img{
 }
 .container {
    height:80vh;
+   
   /* padding-top: 150px; */
  
 }
