@@ -222,8 +222,8 @@ h1.headin{
 
 @media only screen and (max-width: 500px) {
     .btn-mod.btn-large {
-       padding: 6px 16px;
-       font-size: 11px;
+       padding: 11px 21px;
+       font-size: 14px;
     }
   
     .form-title {

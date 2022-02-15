@@ -61,14 +61,14 @@ export default {
     font-size: 30px;
     line-height: 50px;
     transition: .3s;
-    color: #000;
+    color: #012966;
     
 }
 .social1-menu ul li .fa{
     font-size: 30px;
     line-height: 50px;
     transition: .3s;
-    color: #000;
+    color: #012966;
     
 }
 
@@ -105,7 +105,7 @@ export default {
     background-color: #0077b5;
 }
 /* .social1-menu ul li:nth-child(4) a:hover{
-    background-color: #000;
+    background-color: #012966;
 }
 .social1-menu ul li:nth-child(5) a:hover{
     background-color: rgb(0, 187, 255);

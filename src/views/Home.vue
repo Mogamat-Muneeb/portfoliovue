@@ -91,6 +91,9 @@ img{
   /* padding-top: 150px; */
  
 }
+.row {
+  overflow-x: hidden;
+}
 }
 
 </style>
