@@ -142,81 +142,13 @@ ul li, ol li {
     /* border-radius:20px; */
 }
 }
-/* 
-@media only screen and (max-width: 1000px){
-  .photo {
-        height: 400px;
-  }
-
-  .row{
-    text-align:none;
-    
-}
-.about-profile{
-    font-size:-15px ;
-}
-}
-
-@media only screen and (max-width: 600px){
-   .row{
-    text-align:left !important;
-   }
-    .pro-title{
- 
-     margin-left:-95px;
-    text-align:left !important;
-}
-}
-
-
-
-@media only screen and (max-width: 720px){
-   .row{
-    text-align:left !important;
-   }
-    .pro-title{
- 
-     margin-left:-120px;
-    text-align:left !important;
-}
-}
-
-
-@media only screen and (max-width: 535px){
-   .row{
-    text-align:left !important;
-   }
-    .pro-title{
- 
-     margin-left: -160px;
-    text-align:left !important;
-}
-.about-profile{
-    margin-right:-50%;
-}
-} */
-/* 
-@media only screen and (max-width: 904px){
-   .row{
-    text-align:center !important;
-    
-   }
-    .pro-title{
- 
-     margin-left: 10px;
-    text-align:left !important;
-}
-.about-profile{
-    margin-right:-145%;
-}
-.h{
-    padding-left:110px;
-} */
-
 
 @media only screen and (max-width: 494px) {
     h1.headin{
     padding-top:50px;
+}
+.about-profile li{
+    margin-left: 10px;
 }
 }
 </style>
