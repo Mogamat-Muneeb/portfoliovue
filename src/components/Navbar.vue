@@ -113,7 +113,7 @@ img{
 @media only screen and (max-width: 494px) {
      .navbar-brand {
         position: absolute;
-        left: 220px;
+        left: 170px;
         top: 100px;
 }
 }
