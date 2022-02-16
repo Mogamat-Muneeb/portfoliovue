@@ -11,7 +11,7 @@
   </span> </h1>
       </div>
       <div class="col">
-        <img src="https://i.postimg.cc/Y2sZ1ZNp/IMG-20210815-WA0040-removebg-preview.png" alt="">
+        <img src="https://i.postimg.cc/k5DFKb1P/Whats-App-Image-2022-02-16-at-7-11-20-AM.jpg" alt="">
       </div>
     </div>
   </div>

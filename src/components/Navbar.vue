@@ -1,6 +1,13 @@
 <template>
+
+<!-- https://i.postimg.cc/0jT0TT91/download.png -->
 <nav id="nav" class="links" :class="{ active: isActive}">
-  
+    <div class="container">
+        <a class="navbar-brand" href="/">
+              <img src="https://i.postimg.cc/0jT0TT91/download.png" alt="">
+        </a>   
+    </div>
+ 
     <router-link @click="toggleNav" to="/">Home</router-link>
      <router-link @click="toggleNav" :to="{ name: 'About'}">About</router-link>
     <router-link @click="toggleNav" :to="{ name: 'Resume'}">Resume</router-link>
@@ -66,21 +73,17 @@ export default {
     display: none;
     overflow-x: hidden;
 }
- /* #nav{
-    padding: 10px;
 
-
-a {
-    font-weight:bold;
-    color: #2c3e50;
-    padding: 10px;
-    text-decoration: none;
-    &.router-link-exact-active{
-        color: #42b983;
-    }
+.navbar-brand {
+    position: absolute;
+    left: 15px;
+    top: 5.5px;
 }
-}  */
 
+img{
+    height:55px;
+    width:55px;
+}
 @media screen and (max-width:700px) {
     #nav{
         position: fixed;
@@ -104,5 +107,14 @@ a {
 
         
     }
+ 
+}
+
+@media only screen and (max-width: 494px) {
+     .navbar-brand {
+        position: absolute;
+        left: 220px;
+        top: 100px;
+}
 }
 </style>
