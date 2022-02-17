@@ -80,7 +80,7 @@ h1{
   padding-left:10px;
 }
 img{
-  height:450px;
+  height:350px;
   object-fit: cover;
   padding-top: 30px;
   /* padding-right: 130px; */
