@@ -65,7 +65,7 @@ export default {
 img{
   height:450px;
   object-fit: cover;
-  padding-right: 130px;
+  
   
 }
 h6{
@@ -74,19 +74,20 @@ h6{
 h1{
   font-weight:700;
 }
-@media screen and (max-width: 493px){
+@media screen and (max-width: 494px){
 .name{
   padding-top:10px;
   padding-left:10px;
 }
 img{
-  height:250px;
+  height:350px;
   object-fit: cover;
   padding-right: 130px;
-  padding-left:105px;
+  padding-left:58px;
+  
 }
 .container {
-   height:80vh;
+   height:100vh;
    
   /* padding-top: 150px; */
  
