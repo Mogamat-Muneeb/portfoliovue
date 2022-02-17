@@ -80,10 +80,12 @@ h1{
   padding-left:10px;
 }
 img{
+  display:flex;
+  justify-content: center;
   height:250px;
   object-fit: cover;
-  padding-right: 130px;
-  padding-left:130px;
+  /* margin-right:auto; */
+  margin-left:auto;
 }
 .container {
    height:80vh;
