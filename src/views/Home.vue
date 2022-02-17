@@ -88,7 +88,7 @@ img{
   
 }
 .container {
-   height:100vh;
+   height:90vh;
    
   /* padding-top: 150px; */
  
