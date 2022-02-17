@@ -82,7 +82,7 @@ h1{
 img{
   height:350px;
   object-fit: cover;
-  padding-right: 130px;
+  /* padding-right: 130px; */
   /* padding-left:58px; */
   
 }
