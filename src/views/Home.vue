@@ -74,7 +74,7 @@ h6{
 h1{
   font-weight:700;
 }
-@media screen and (max-width: 494px){
+@media screen and (max-width: 493px){
 .name{
   padding-top:10px;
   padding-left:10px;
