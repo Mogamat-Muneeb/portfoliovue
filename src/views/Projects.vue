@@ -10,13 +10,16 @@
             <img class="proj_img" :src="project.img" alt="">
             <div class="overlay">
             <div class="text1 fw-bolder">{{ project.title }}</div>
+            
                 <div class="econ">
                 <div class="row">
+                  <p>{{ project.desc }}</p>
                 <div class="col">
                 <a :href="project.github" target="_blank"><i class="   fab fa-github"></i></a> 
                  </div>
                 <div class="col">
-                 <a :href="project.netlify" target="_blank"><i class=" far fa-eye"></i></a>           
+                 <a :href="project.netlify" target="_blank"><i class=" far fa-eye"></i></a> 
+
                  </div>
                 </div>
             </div>
@@ -53,7 +56,12 @@ export default {
 h1.headin{
     padding-top:80px;
 }
-
+p{
+  position:relative;
+  bottom: 55px;
+  color: white;
+  
+}
 .container {
     display:flex;
     justify-content: center;
@@ -68,18 +76,18 @@ h1.headin{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-     position:initial;
+    position:initial;
 }
 
 .bucket {
-     display:flex;
+    display:flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 400px;
     height: 250px;
-  position: relative;
-  margin: 10px;
- 
+    position: relative;
+    margin: 10px;
+  
 }
 
 .proj_img {
@@ -89,9 +97,9 @@ h1.headin{
   object-fit: cover;
    /* border: 6px solid lightgray; */
    
-   border: 6px solid white;
-   border-radius:6px;
-         box-shadow:8px 8px 15px #e4e4e4;
+  border: 6px solid white;
+  border-radius:6px;
+  box-shadow:8px 8px 15px #e4e4e4;
   
 }
 
@@ -158,17 +166,17 @@ h1.headin{
 .econ{
     display:flex;
     justify-content: space-evenly;
-  padding-top: 145px;
+    padding-top: 145px;
 }
 
 
 @media only screen and (max-width: 904px){
   .bucket {
-     display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 350px;
-    height: 250px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
   position: relative;
   margin: 10px;
  
@@ -179,8 +187,14 @@ h1.headin{
   width: 350px;
   height: auto;
   object-fit: cover;
-   border: 6px solid white;
-   border-radius:6px;
+  border: 6px solid white;
+  border-radius:6px;
+  
+}
+p{
+  position:relative;
+  bottom: 40px;
+  color: white;
   
 }
 
@@ -203,7 +217,7 @@ h1.headin{
   color: #00bfff;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
   /* padding-right: 10px; */
   -webkit-transform: translate(-50%, -50%);
@@ -242,6 +256,40 @@ h1{
 @media only screen and (max-width: 494px) {
     h1.headin{
     padding-top:3px;
+}
+.fab{
+  padding-top:-1px;
+    font-size:25px;
+    /* display: column; */
+    color: white;
+    /* float: left; */
+    /* padding-left: 15px; */
+      /* padding-right: 15px; */
+}
+.far{
+    padding-top:-1px;
+    font-size:25px;
+    /* display: column; */
+    color: white;
+    /* padding-left: 40px; */
+}
+.econ{
+    /* display:flex; */
+    /* justify-content: space-around; */
+    padding-top: 145px;
+}
+p{
+  position:relative;
+  bottom: 40px;
+  color: white;
+  
+}
+
+.col{
+  padding-left:70px;
+  padding-right:70px;
+  position: relative;
+  bottom: 50px;
 }
 }
 </style>

@@ -20,20 +20,23 @@
            <img src="../assets/javascript.png">  
               <span class="logotext">JAVASCRIPT</span>
         </div>
-         <div class="logo">
+        <div class="col">
+            <div class="logo">
            <img src="../assets/vue.png">  
               <span class="logotext">VUE.JS</span>
         </div>
            <div class="logo">
            <img src="../assets/node.png">  
-              <span class="logotext">NODE</span>
+              <span class="logotext">NODE.JS</span>
         </div>
            <div class="logo">
            <img src="../assets/mysql.png">  
               <span class="logotext">MYSQL</span>
         </div>
+        </div>
+       
          </div>
-         <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">TOOLS</span> </h1>
+         <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Tools</span> </h1>
          <div class="col">
           <div class="logo">
             <img src="../assets/vscode.png">  

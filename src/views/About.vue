@@ -11,21 +11,20 @@
   <div class=" col-sm-6">
   <h1 class="hi" style="color:#00bfff;" >Hi Guys!</h1>
   <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;">Bio:</h6>
-  <p> I am a person that works hard, trying my best to be punctual at my studies or anything that needs my full attention. I'm a person that is always willing to assist others when in need. I'm very comfortable around lots of people. I'm a confident and open person.</p>
-  <h6  class=" heading fw-bold" style="color: #1e90ff;">Where my passion for coding started:</h6>
-  <p>My passion for the tech/coding industry started when I realized that technology is the future. I always wondered how websites and mobile applications were built that is the main reason I started looking into coding.</p>
- 
-  <div class="about-profile">   
-<ul class="admin-profile">
+  <p>I am hardworking and time conscious of anything that requires my attention. I'm always willing to assist others when in need. I'm very comfortable around lots of people. I'm confident and open-minded.</p>
+  <p>My passion for technology and coding began when I realised that technology was the future. I have always wondered how web applications and mobile apps are built, which is why I decided to study coding.</p>
 
-<li><span class="pro-title"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
-<li><span class="pro-title"> Country    </span> <span class="pro-detail">South Africa</span></li>
-<li><span class="pro-title"> Location   </span> <span class="pro-detail">Cape Town</span></li>
-<li><span class="pro-title"> e-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
-<li><span class="pro-title"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
-<li><span class="pro-title"> Freelance  </span> <span class="pro-detail">Available</span></li>
-</ul>
-</div>
+  <div class="about-profile">   
+    <ul class="admin-profile">
+
+    <li><span class="pro-title"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
+    <li><span class="pro-title"> Country    </span> <span class="pro-detail">South Africa</span></li>
+    <li><span class="pro-title"> Location   </span> <span class="pro-detail">Cape Town</span></li>
+    <li><span class="pro-title"> e-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
+    <li><span class="pro-title"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
+    <li><span class="pro-title"> Freelance  </span> <span class="pro-detail">Available</span></li>
+    </ul>
+ </div>
  
   </div>
 </div>

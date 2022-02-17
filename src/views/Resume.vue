@@ -52,7 +52,7 @@ export default {
 
 <style scoped>
 .fas{
-
+ color: #00bfff;
  font-size:17px;
 
 }
