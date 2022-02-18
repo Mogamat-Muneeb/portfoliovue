@@ -11,7 +11,7 @@
   </span> </h1>
       </div>
       <div class="col">
-        <img src="https://i.postimg.cc/k5DFKb1P/Whats-App-Image-2022-02-16-at-7-11-20-AM.jpg" alt="">
+        <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">
       </div>
     </div>
   </div>
