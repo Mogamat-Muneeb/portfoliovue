@@ -63,7 +63,7 @@ export default {
   padding-left: 135px;
 }
 img{
-  height:450px;
+  height:550px;
   object-fit: cover;
   
   
@@ -80,7 +80,7 @@ h1{
   padding-left:10px;
 }
 img{
-  height:350px;
+  height:450px;
   object-fit: cover;
   padding-top: 30px;
   /* padding-right: 130px; */
