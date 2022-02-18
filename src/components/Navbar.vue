@@ -52,7 +52,7 @@ export default {
     left: 0;
     width: 100%;
     height: 75px;
-    background: #f5f5f5;
+    background: white;
     box-shadow:8px 8px 15px #e4e4e4;
 
     
