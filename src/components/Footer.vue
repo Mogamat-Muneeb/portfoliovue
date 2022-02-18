@@ -33,8 +33,8 @@ export default {
 }
 .social1-menu {
   position: relative;
-  background: #f5f5f5;
-    box-shadow:8px 8px 15px #ababab;
+  background:white;
+    box-shadow:8px 8px 15px #e4e4e4;
   height:130px;
 }
 
