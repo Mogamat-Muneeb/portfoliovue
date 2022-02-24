@@ -67,7 +67,7 @@ h1{
       box-shadow:8px 8px 15px #e4e4e4;
     margin-right: -100px;
     margin-top:120px; 
-    /* border: 5px solid white; */
+    border: 4px solid white;
     border-radius:50%;
 }
 
