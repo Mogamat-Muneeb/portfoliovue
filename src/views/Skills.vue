@@ -36,7 +36,7 @@
         </div>
        
          </div>
-         <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Tools</span> </h1>
+         <h1 class="head d-flex justify-content-center"><span  style="color:#1e90ff;">Tools</span> </h1>
          <div class="col">
           <div class="logo">
             <img src="../assets/vscode.png">  
@@ -101,7 +101,9 @@ h1.headin{
     padding-top:110px;
 }
 
-
+.head{
+  margin-top:30px;
+}
 .col{
   margin-top:30px;
 }
