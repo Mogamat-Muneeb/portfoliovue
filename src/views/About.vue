@@ -9,8 +9,8 @@
   </div>
 
   <div class=" col-sm-6">
-  <h1 class="hi" style="color:#00bfff;" >Hi Guys!</h1>
-  <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;">Bio:</h6>
+  <h1 class="hi" style="color:#00bfff;" >Bio:</h1>
+  <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;"></h6>
   <p>I am hardworking and time conscious of anything that requires my attention. I'm always willing to assist others when in need. I'm very comfortable around lots of people. I'm confident and open-minded.</p>
   <p>My passion for technology and coding began when I realised that technology was the future. I have always wondered how web applications and mobile apps are built, which is why I decided to study coding.</p>
 
