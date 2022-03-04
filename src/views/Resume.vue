@@ -80,6 +80,11 @@ h1{
     margin-bottom:50px;
 }
 
+.card:hover{
+  transform: scale(1.1);
+  transition:.5s;
+}
+
 .info {
     
     padding-left: 20px;
