@@ -1,5 +1,7 @@
 <template>
    <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Testimonials</span> </h1>
+      <span v-show="loading"><Loader/></span>
+
    <div class="container">
        <div v-for="testimonial in testimonials" :key="testimonial" class="row">
   <div class="content">
@@ -20,17 +22,21 @@
 </template>
 
 <script>
+import Loader from "../components/Loader.vue"
 export default {
     data(){
     return {
-      testimonials:[]
+      testimonials:[],
+      loading: false
     }
   },
- 
+    components:{ Loader },
         mounted(){
+          this.loading = true;
             fetch('  https://myport-backend.herokuapp.com/testimonials')
             .then(res => res.json())
-            .then(data => this.testimonials = data)
+            .then(data => {this.testimonials = data; 
+            this.loading = false} )
             .catch(err => console.log(err.message))
         }
 }

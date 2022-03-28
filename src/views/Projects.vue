@@ -1,6 +1,7 @@
 <template>
  <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Projects</span> </h1>
-   
+   <span v-show="loading"><Loader/></span>
+
 
   <div class="container">
      <div v-for="project in projects" :key="project.id" class="project">
@@ -32,19 +33,24 @@
 </template>
 
 <script>
-
-
+import Loader from "../components/Loader.vue"
 export default {
         data(){
             return {
-                projects:[]
+                projects:[],
+                loading: false
             }
         },
+        components:{ Loader },
         mounted(){
+          this.loading = true
             fetch("https://myport-backend.herokuapp.com/projects")
             .then(res => res.json())
-            .then(data => this.projects = data)
+            .then(data => {this.projects = data;
+            this.loading =  false} )
             .catch(err => console.log(err.message))
+            
+            
         }
        
 }

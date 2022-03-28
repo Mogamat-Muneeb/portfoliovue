@@ -58,7 +58,8 @@
                 </div>
 
                 <div class=" b text-center margin-top-25">
-                    <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+                    <button type="submit" class="btn btn-mod btn-border btn-large"> <span class="log" v-show="!loading">Send Message</span>
+                      <span v-show="loading"><Loader/></span></button>
                     <button type="reset" value="Reset" class="btn btn-mod btn-border btn-large">reset</button>
                 </div>
 
@@ -72,6 +73,7 @@
 </template>
 
 <script>
+import Loader from "../components/Loader.vue"
 export default {
   data(){
     return {
@@ -79,11 +81,15 @@ export default {
       email: "",
       contact: "",
       message: "",
+      loading: "",
 
     }
   },
+          components:{ Loader },
+
   methods:{
     handleSubmit(){
+    this.loading = true;
     console.log(this.name,this.email,this.contact,this.message)
     fetch('https://myport-backend.herokuapp.com/contact', {
   method: 'POST',
@@ -98,7 +104,8 @@ export default {
   },
 })
   .then((response) => response.json())
-  .then((json) => alert(json.msg))
+  .then((json) =>{alert(json.msg);
+  this.loading=false} )
   .catch((error) => alert(error.msg));
     }
   }
