@@ -49,7 +49,7 @@ export default {
 }
 
 .container {
-   /* height:100vh; */
+   height:100vh;
   padding-top: 150px;
   margin-bottom:50px;
  
