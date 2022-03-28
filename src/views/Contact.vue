@@ -130,7 +130,7 @@ h1.headin{
 .containe {
   display:flex;
   padding: none;
-  margin-bottom:50px;
+  /* margin-bottom:50px; */
   height:100vh;
 }
 /* contact */
