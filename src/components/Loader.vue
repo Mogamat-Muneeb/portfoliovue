@@ -1,14 +1,14 @@
 <template>
-<PulseLoader :color="white"/>
+<PulseLoader/>
 </template>
 
 <script>
 import PulseLoader from "vue-spinner/src/PulseLoader.vue"
 export default {
     name: "Loader",
-    props: {
-        color: "",
-    },
+    // props: {
+    //     color: "",
+    // },
     components: {
         PulseLoader,
     }
@@ -18,6 +18,7 @@ export default {
 <style scoped>
     *{
         background: transparent;
+        color: #000;
     }
 
 </style>
