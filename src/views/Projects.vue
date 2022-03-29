@@ -299,5 +299,16 @@ p{
   position: relative;
   bottom: 50px;
 }
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    margin-top:15px ;
+    position: initial;
+    margin-bottom:50px;
+    /* height:70vh; */
+      /* height:100vh; */
+}
 }
 </style>
