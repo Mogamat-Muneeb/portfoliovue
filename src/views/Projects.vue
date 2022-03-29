@@ -75,7 +75,7 @@ p{
     overflow-y: hidden;
     margin-top:15px ;
     position: initial;
-    margin-bottom:90px;
+    margin-bottom:120px;
     /* height:70vh; */
       /* height:100vh; */
 }
