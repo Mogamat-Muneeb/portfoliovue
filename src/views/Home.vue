@@ -9,11 +9,11 @@
   <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
     
   </span> </h1>
-  
+<!--   
                 <div class=" b text-center p-5">
                     
                      <a href="" class=" btn_card btn  d-flex justify-content-center " download><button type="submit" class="btn btn-mod btn-border btn-large">Download Cv</button></a>
-                </div>
+                </div> -->
       </div>
       <div class="col">
         <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">
@@ -46,7 +46,7 @@ export default {
     opacity: 0;
   }
 }
-.btn-mod.btn-large {
+/* .btn-mod.btn-large {
     height: auto;
     padding: 13px 52px;
     font-size: 15px;
@@ -91,7 +91,7 @@ export default {
     background:#9dd8e0;
     outline: none;
     
-}
+} */
 
 .container {
    /* height:100vh; */
