@@ -20,7 +20,7 @@
     <li><span class="pro-title"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
     <li><span class="pro-title"> Country    </span> <span class="pro-detail">South Africa</span></li>
     <li><span class="pro-title"> Location   </span> <span class="pro-detail">Cape Town</span></li>
-    <li><span class="pro-title"> e-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
+    <li><span class="pro-title"> E-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
     <li><span class="pro-title"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
     <li><span class="pro-title"> Freelance  </span> <span class="pro-detail">Available</span></li>
     </ul>
@@ -73,7 +73,7 @@ h1{
 
 .hi{
     display: flex;
-    justify-content: center;
+   
     padding-top:50px;
 }
 .admin-profile{
