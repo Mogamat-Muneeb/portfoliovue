@@ -77,7 +77,7 @@ p{
     position: initial;
     margin-bottom:50px;
     /* height:70vh; */
-      /* height:100vh; */
+      height:100vh;
 }
 .project{
     display: flex;
