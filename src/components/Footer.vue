@@ -99,16 +99,8 @@ export default {
     background-color: rgba(0, 0, 0, 0.829);
 }
 .social1-menu ul li:nth-child(2) a:hover{
-    background-color: #E4405F;
-}
-.social1-menu ul li:nth-child(3) a:hover{
     background-color: #0077b5;
 }
-/* .social1-menu ul li:nth-child(4) a:hover{
-    background-color: #012966;
-}
-.social1-menu ul li:nth-child(5) a:hover{
-    background-color: rgb(0, 187, 255);
-} */
+
 
 </style>

@@ -9,6 +9,11 @@
   <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
     
   </span> </h1>
+  
+                <div class=" b text-center p-5">
+                    
+                     <a href="" class=" btn_card btn  d-flex justify-content-center " download><button type="submit" class="btn btn-mod btn-border btn-large">Download Cv</button></a>
+                </div>
       </div>
       <div class="col">
         <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">
@@ -29,27 +34,67 @@ export default {
 </script>
 
 <style scoped>
-/* .blink {
 
-   display:flex;
-  justify-content: center;
-  flex-direction: column;
-  
- 
-} */
 
-.blink-hard {
+.blink-hard { 
   animation: pulse 4s infinite;
 }
+
 
 @keyframes pulse {
   50% {
     opacity: 0;
   }
 }
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+    color: #fff;
+    border: 1px solid #1e90ff;
+    background: #1e90ff;
+}
+
+.btn-mod, a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: rgba(34,34,34, .9);
+    border: 1px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+    color: white;
+    border-color:#9dd8e0 ;
+    background:#9dd8e0;
+    outline: none;
+    
+}
 
 .container {
-   height:100vh;
+   /* height:100vh; */
   padding-top: 150px;
   margin-bottom:50px;
  
