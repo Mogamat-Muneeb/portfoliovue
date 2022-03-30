@@ -1,8 +1,10 @@
 <template>
    <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Testimonials</span> </h1>
-      <span v-show="loading"><Loader/></span>
+     
 
    <div class="container">
+         <div class="loaderForPage" v-show="loading"><Loader/></div>
+
        <div v-for="testimonial in testimonials" :key="testimonial" class="row">
   <div class="content">
     
@@ -57,34 +59,19 @@ h1.headin{
   margin-bottom:50px;
 
 }
-
-
-/* 
-.image {
+.loaderForPage{
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  background-color:white;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-   box-shadow:8px 8px 8px #e4e4e4;
-   margin: 10px;
-} */
+  align-items: center;
+}
 
 
-/* *, *:before, *:after{
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing:border-box;
-  box-sizing: border-box;
-} */
-
-/* body{
-  background: #f9f9f9;
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
-} */
 
 .main-title{
   color: #2d2d2d;
@@ -93,23 +80,6 @@ h1.headin{
   padding: 0.7em 0;
 }
 
-/* .container{
-  padding: 1em 0;
-  float: left;
-  width: 100%;
-} */
-/* @media screen and (max-width: 640px){
-  .container{
-    display: block;
-    width: 100%;
-  }
-} */
-/* 
-@media screen and (min-width: 900px){
-  .container{
-    width: 33.33333%;
-  }
-} */
 
 .container .title{
   color: #1a1a1a;
@@ -123,11 +93,11 @@ h1.headin{
   width: 90%;
   max-width: 400px;
   margin: 10px;
-  /* overflow: hidden; */
+
 }
 
 .content .content-overlay {
-  /* background: rgba(0,0,0,0.7); */
+
   position: absolute;
   height: 300px;
   width: 290px;
@@ -139,7 +109,7 @@ h1.headin{
   -webkit-transition: all 0.4s ease-in-out 0s;
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
-  /* border-radius: 10px; */
+
   margin-top: 10px;
  
 }

@@ -4,16 +4,11 @@
       <div class="name col">
         <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
         <h1  style="font-size:60px;">M.Muneeb Davids !</h1>
-        <!-- <h1 class="type" style="color:#FF7779;">An Aspiring Full Stack Developer</h1> -->
+     
         <h1  style="color:;font-size:20px;">An Aspiring <span class="blink">
   <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
     
   </span> </h1>
-<!--   
-                <div class=" b text-center p-5">
-                    
-                     <a href="" class=" btn_card btn  d-flex justify-content-center " download><button type="submit" class="btn btn-mod btn-border btn-large">Download Cv</button></a>
-                </div> -->
       </div>
       <div class="col">
         <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">

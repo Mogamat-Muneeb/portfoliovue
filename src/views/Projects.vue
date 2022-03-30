@@ -1,12 +1,12 @@
 <template>
  <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Projects</span> </h1>
-   <span v-show="loading"><Loader/></span>
 
 
   <div class="container">
+    <div class="loaderForPage" v-show="loading"><Loader/></div>
      <div v-for="project in projects" :key="project.id" class="project">
         <div class="proj_box">
-            <!-- <h2>{{ project.title }}</h2> -->
+            
             <div class="bucket">
             <img class="proj_img" :src="project.img" alt="">
             <div class="overlay">
@@ -59,6 +59,17 @@ export default {
 </script>
 
 <style scoped>
+.loaderForPage{
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1.headin{
     padding-top:80px;
 }
@@ -76,8 +87,7 @@ p{
     margin-top:15px ;
     position: initial;
     margin-bottom:120px;
-    /* height:70vh; */
-      /* height:100vh; */
+    
 }
 .project{
     display: flex;
@@ -101,9 +111,7 @@ p{
   display: block;
   width: 399px;
   height: auto;
-  object-fit: cover;
-   /* border: 6px solid lightgray; */
-   
+  object-fit: cover;   
   border: 6px solid white;
   border-radius:6px;
   box-shadow:8px 8px 15px #e4e4e4;
@@ -193,7 +201,6 @@ p{
     font-size:25px;
     display: column;
     color: white;
-    /* padding-left: 40px; */
 }
 
 .econ{
@@ -254,10 +261,7 @@ p{
 .text1 {
   color: #00bfff;
   font-size: 20px;
-  position: absolute;
-  /* top: 50%; */
   left: 50%;
-  /* padding-right: 10px; */
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -281,7 +285,6 @@ p{
     font-size:30px;
     display: column;
     color: white;
-    /* padding-left: 40px; */
 }
 
 }
@@ -298,22 +301,17 @@ h1{
 .fas{
   padding-top:-1px;
     font-size:20px;
-    /* display: column; */
     color: white;
-    /* float: left; */
-    /* padding-left: 15px; */
-      /* padding-right: 15px; */
+  
 }
 .far{
     padding-top:-1px;
     font-size:20px;
-    /* display: column; */
+
     color: white;
-    /* padding-left: 40px; */
+
 }
 .econ{
-    /* display:flex; */
-    /* justify-content: space-around; */
     padding-top: 145px;
 }
 p{

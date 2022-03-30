@@ -42,9 +42,7 @@ export default {
 </script>
 
 <style scoped>
-/* .bio{
-    padding-right: 60px;
-} */
+
 
 h1{
     padding-top:110px;
@@ -53,8 +51,7 @@ h1{
 .container {
     display:flex;
     flex-wrap: wrap;
-    /* height:100vh; */
-    /* position:fixed; */
+  
     
    
 }
@@ -67,7 +64,7 @@ h1{
       box-shadow:8px 8px 15px #e4e4e4;
     margin-right: -100px;
     margin-top:120px; 
-    border: 4px solid white;
+    border: 6px solid white;
     border-radius:50%;
 }
 
@@ -95,7 +92,7 @@ h1{
 }
 .about-profile li{
     display: flex;
-    /* justify-content:space-between; */
+    
     width:300px;
 }
 .about-profile .pro-title {
@@ -136,9 +133,7 @@ ul li, ol li {
     box-shadow:8px 8px 15px #e4e4e4;
     margin-right: auto;
     margin-left: auto;
-    /* margin-top:120px;  */
-    /* border: 5px solid white; */
-    /* border-radius:20px; */
+   
 }
 }
 

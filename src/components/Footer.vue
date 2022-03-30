@@ -1,19 +1,15 @@
 <template>
-<!-- <footer class="footer"> -->
+
  
  <div class="social1-menu">
         <ul>
             <li><a href="https://github.com/Mogamat-Muneeb" target="blank"><i class="fab fa-github"></i></a></li>
-            <!-- <li><a href="https://www.instagram.com/muneeb_davids/" target="blank"><i class="fab fa-instagram"></i></a></li> -->
             <li><a href="https://www.linkedin.com/in/mogamat-muneeb-014769224/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
-            <!-- <li><a href="https://codepen.io/your-work" target="blank"><i class="fab fa-codepen" target="blank"></i></a></li> -->
-            <!-- <li><a href="https://app.netlify.com/teams/mogamat-muneeb/overview" target="blank"><i class="fa fa-link" target="blank"></i></a></li> -->
 
         </ul>
         <p class="p fw-bold ">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Mogamat Muneeb Davids</p>
   </div>
-<!-- </footer> -->
- 
+
 
 </template>
 

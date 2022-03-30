@@ -20,10 +20,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family:"Nunito,sans-serif" ; */
-  /* background-color:#f5f5f5; */
-  /* overflow-x: hidden; */
-  /* width:100vw; */
+ 
 }
 
 #app {

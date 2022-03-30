@@ -3,12 +3,7 @@
 
 <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Contact Me</span> </h1>
   <div class="containe d-flex justify-content-center" id="contact">
-<!-- 
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-          
-        </div>
-    </div> -->
+
 
     <div class="row">
 
@@ -32,8 +27,7 @@
                       <div class="call-me-1 text-muted">davimuneeb785@gmail.com</div>
                 </div>
             </div>
-            <!-- action="https://formspree.io/f/mvodnnke" -->
-             <!-- onsubmit="return validateForm()" -->
+       
             <form @submit.prevent="handleSubmit" id="contact-form" name="myForm" class="form"  role="form">
 
                 <div class="form-group">
@@ -64,7 +58,7 @@
                 </div>
 
             </form>
-          <!-- <p>{{name}}</p>  -->
+          
         </div>
 
     </div>
@@ -130,7 +124,7 @@ h1.headin{
 .containe {
   display:flex;
   padding: none;
-  /* margin-bottom:50px; */
+
   height:100vh;
 }
 /* contact */
@@ -150,7 +144,7 @@ h1.headin{
   padding: 25px;
   font-size: 30px;
   font-weight: 300;
-  /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+
 }
 
 .form-group .form-control {
@@ -168,7 +162,7 @@ h1.headin{
     background-image: none;
     border: solid 1px #9dd8e0;
     -webkit-box-shadow: none;
-    /* box-shadow: none; */
+  
      box-shadow:8px 8px 15px #e4e4e4;
 }
 
@@ -177,9 +171,7 @@ h1.headin{
 	border: solid 1px#1e90ff;
 }
 
-/* textarea {
-  resize: none;
-} */
+
 
 .btn-mod.btn-large {
     height: auto;
@@ -241,16 +233,14 @@ h1.headin{
     padding: 80px;
   }
 }
-/* .call{
-  margin-left: 35%;
-} */
+
 
 .fas{
   display:flex;
   justify-content: center;
   font-size:35px;
-  /* padding-bottom:10px; */
-  /* color:#2c3e50; */
+
+
   
 }
 
@@ -263,7 +253,7 @@ h1.headin{
 .call-me-1{
   display:flex;
   justify-content: center;
-  /* padding-top: 10px; */
+
 }
 .call-holder{
   padding-top: 15px;

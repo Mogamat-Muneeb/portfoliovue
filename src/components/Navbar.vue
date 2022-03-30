@@ -1,6 +1,6 @@
 <template>
 
-<!-- https://i.postimg.cc/0jT0TT91/download.png -->
+
 <nav id="nav" class="links" :class="{ active: isActive}">
     <div class="container">
         <a class="navbar-brand" href="/">
@@ -102,19 +102,12 @@ img{
     #nav-btn{
         display:block;
         z-index: 100;
-        /* margin-right:150px;
-        overflow-y: hidden; */
+        
 
         
     }
  
 }
 
-/* @media only screen and (max-width: 494px) {
-     .navbar-brand {
-        position: absolute;
-        left: 189px;
-        top: 100px;
-}
-} */
+
 </style>
