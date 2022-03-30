@@ -1,4 +1,6 @@
 <template>
+<Loader/>
+
 <Navbar />
 <main>
   <router-view :key="$route.fullPath"/>
@@ -6,10 +8,11 @@
  <Footer />
 </template>
 <script>
+import Loader from "../src/components/Loader.vue"
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
 export default {
-  components: { Navbar,Footer } 
+  components: { Navbar,Footer,Loader } 
   };
 </script>
 
