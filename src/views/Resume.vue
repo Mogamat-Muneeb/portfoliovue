@@ -1,7 +1,7 @@
 <template>
  <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Resume</span> </h1>
        
-      <h1  style="color:#00bfff;">Education</h1>
+      <h3  style="color:#00bfff;">Education</h3>
       <div class="card">
     <div class="info">
         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i> 2015-2020:</h4>
@@ -16,7 +16,7 @@
         <p style="font-weight:16px;">A Bootcamp program that provides you with the core fundamentals of Web Development, learning coding languages such as HTML, CSS, Javascript, and more coding techniques. We taught interpersonal and self-development skills to take us further in life. </p>
     </div>
       </div>
-    <h1  style="color:#00bfff;">Work & Experience</h1>
+    <h3  style="color:#00bfff;">Work & Experience</h3>
       <div class="card">
            <div class="info">
          <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-briefcase"></i> 2014-2018:</h4>
