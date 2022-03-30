@@ -11,12 +11,12 @@
             <img class="proj_img" :src="project.img" alt="">
             <div class="overlay">
             <div class="text1 fw-bolder">{{ project.title }}</div>
-            
+            <div class=" text2 lang fw-bolder">{{ project.lang }}</div>
                 <div class="econ">
                 <div class="row">
-                  <p>{{ project.desc }}</p>
+                  <p>"{{ project.desc }}"</p>
                 <div class="col">
-                <a :href="project.github" target="_blank"><i class="   fab fa-github"></i></a> 
+                <a :href="project.github" target="_blank"><i class="fas fa-code-branch"></i></a> 
                  </div>
                 <div class="col">
                  <a :href="project.netlify" target="_blank"><i class=" far fa-eye"></i></a> 
@@ -148,24 +148,49 @@ p{
 
   
 }
-.fab:hover{
-    color:#1e90ff;
+.text2 {
+  color: #00bfff;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left:30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+ 
+
+  
+}
+p{
+  position: absolute;
+  top: 47%;
+  left:43%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+.fas:hover{
+    color:#012966;
      
 }
 .far:hover{
-    color:#1e90ff;
+    color:#012966;
      
 }
 
-.fab{
-    font-size:30px;
+.fas{
+    font-size:25px;
     display: column;
     color: white;
     float: left;
     padding-left: 260px;
 }
 .far{
-    font-size:30px;
+    font-size:25px;
     display: column;
     color: white;
     /* padding-left: 40px; */
@@ -237,7 +262,7 @@ p{
 
   
 }
-.fab{
+.fas{
   padding-top: 25px;
     font-size:30px;
     display: column;
@@ -265,9 +290,9 @@ h1{
     h1.headin{
     padding-top:3px;
 }
-.fab{
+.fas{
   padding-top:-1px;
-    font-size:25px;
+    font-size:20px;
     /* display: column; */
     color: white;
     /* float: left; */
@@ -276,7 +301,7 @@ h1{
 }
 .far{
     padding-top:-1px;
-    font-size:25px;
+    font-size:20px;
     /* display: column; */
     color: white;
     /* padding-left: 40px; */

@@ -48,15 +48,6 @@ h1.headin{
     padding-top:110px;
 }
 
-/* .image img{
-    width:300px;
-    border-radius:10px;
-}
-
-
-.image img:hover{
-    background:red;
-} */
 
 
 .container {
@@ -163,7 +154,7 @@ h1.headin{
 
 .content-image{
   box-shadow:8px 8px 15px #e4e4e4;
-  width: 100%;
+  width: 300px;
   height: 300px;
   border-radius: 10px;
   margin-top:12px;
