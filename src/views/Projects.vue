@@ -138,7 +138,7 @@ p{
   font-size: 20px;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -153,7 +153,7 @@ p{
   font-size: 15px;
   position: absolute;
   top: 50%;
-  left:30%;
+  left:50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -166,7 +166,7 @@ p{
 p{
   position: absolute;
   top: 47%;
-  left:43%;
+  left:50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
