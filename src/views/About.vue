@@ -63,7 +63,7 @@ h1{
     object-fit:cover;
       box-shadow:8px 8px 15px #e4e4e4;
     margin-right: -100px;
-    margin-top:120px; 
+    margin-top:70px; 
     border: 6px solid white;
     border-radius:50%;
 }
@@ -97,7 +97,7 @@ h1{
 }
 .about-profile .pro-title {
     font-weight: 700;
-    color: #2c3e50;
+    /* color: #2c3e50; */
     position: relative;
     width: 120px;
     display: inline-block;
