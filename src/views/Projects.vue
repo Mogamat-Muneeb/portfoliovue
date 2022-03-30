@@ -224,11 +224,16 @@ p{
   border-radius:6px;
   
 }
+
 p{
-  position:relative;
-  bottom: 40px;
-  color: white;
-  
+  position: absolute;
+  top: -50%;
+  right:20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-align: center;
 }
 
 .overlay {
@@ -315,6 +320,7 @@ p{
   position:relative;
   bottom: 40px;
   color: white;
+  left:50%
   
 }
 
