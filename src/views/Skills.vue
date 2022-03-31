@@ -23,11 +23,11 @@
         <div class="col">
             <div class="logo">
            <img src="../assets/vue.png">  
-              <span class="logotext">VUE.JS</span>
+              <span class="logotext">VUE</span>
         </div>
            <div class="logo">
            <img src="../assets/node.png">  
-              <span class="logotext">NODE.JS</span>
+              <span class="logotext">NODE</span>
         </div>
            <div class="logo">
            <img src="../assets/mysql.png">  
