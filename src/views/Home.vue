@@ -3,7 +3,7 @@
     <div class="row">
       <div class="name col">
         <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
-        <h1  style="font-size:60px;">M.Muneeb Davids !</h1>
+        <h1  style="font-size:60px;">M.Muneeb Davids </h1>
      
         <h1  style="color:;font-size:20px;">An Aspiring <span class="blink">
   <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
