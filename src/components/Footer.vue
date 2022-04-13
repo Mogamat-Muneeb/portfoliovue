@@ -1,6 +1,4 @@
 <template>
-
- 
  <div class="social1-menu">
         <ul>
             <li><a href="https://github.com/Mogamat-Muneeb" target="blank"><i class="fab fa-github"></i></a></li>
@@ -9,8 +7,6 @@
         </ul>
         <p class="p fw-bold ">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Mogamat Muneeb Davids</p>
   </div>
-
-
 </template>
 
 <script>
@@ -20,9 +16,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-
 .p{
     padding-top: 100px;
     color: #00bfff;

@@ -63,7 +63,7 @@ h1{
     height: 350px;
     width: 350px;
     object-fit:cover;
-      box-shadow:8px 8px 15px #e4e4e4;
+    box-shadow:8px 8px 15px #e4e4e4;
     margin-right: -100px;
     margin-top:70px; 
     border: 6px solid white;

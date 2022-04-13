@@ -3,11 +3,11 @@
   <div class="container  d-flex justify-content-center">
     <div class="row">
       <div class="col">
-         <div class="logo">
+        <div class="col">
+              <div class="logo">
            <img src="../assets/html5.png">  
              <span class="logotext">HTML5</span>
         </div>
-        
          <div class="logo">
             <img src="../assets/css.png">
               <span class="logotext">CSS</span>
@@ -16,10 +16,13 @@
             <img src="../assets/bootstrap.png">
             <span class="logotext">BOOTSTRAP</span>
         </div>
-         <div class="logo">
+                    <div class="logo">
            <img src="../assets/javascript.png">  
               <span class="logotext">JAVASCRIPT</span>
         </div>
+        </div>
+        
+       
         <div class="col">
             <div class="logo">
            <img src="../assets/vue.png">  
@@ -29,12 +32,29 @@
            <img src="../assets/node.png">  
               <span class="logotext">NODE</span>
         </div>
-           <div class="logo">
+           <!-- <div class="logo">
            <img src="../assets/mysql.png">  
               <span class="logotext">MYSQL</span>
+        </div> -->
+               <div class="logo">
+           <img src="https://i.postimg.cc/mkhsRsDn/file-type-mongo-icon-130383.png">  
+              <span class="logotext">MONGO</span>
+        </div>
+              <div class="logo">
+           <img src=" https://i.postimg.cc/3N2P3xhn/postgresql-original-logo-icon-146391.png">  
+              <span class="logotext">POSTGRESQL</span>
         </div>
         </div>
-       
+        <div class="col">
+   
+          <div class="logo">
+           <img src=" https://i.postimg.cc/qv62qhSJ/file-type-docker-icon-130643.png">  
+              <span class="logotext">DOCKER</span>
+        </div>
+        </div>
+     
+    
+      
          </div>
          <h1 class="head d-flex justify-content-center"><span  style="color:#1e90ff;">Tools</span> </h1>
          <div class="col">

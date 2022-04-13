@@ -3,33 +3,36 @@
     <div class="row">
       <div class="name col">
         <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
-        <h1  style="font-size:60px;">M.Muneeb Davids </h1>
-     
-        <h1  style="color:;font-size:20px;">An Aspiring <span class="blink">
-  <span class="blink-hard" style="color:#1e90ff;font-size:20px;">Full Stack Developer</span>
+        <h1 style="font-size:60px;">M.Muneeb Davids</h1>
+        <h1 style="color:;font-size:20px;">An Aspiring<span class="blink">
+    <span class="blink-hard" style="color:#1e90ff;font-size:20px;">
+    Full Stack Developer
+    </span>
     
-  </span> </h1>
+  </span></h1>
+         <button type="submit" class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">RESUME</span></a>
+     </button>
       </div>
       <div class="col">
         <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">
-      </div>
+      </div> 
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
- 
-
-      
+  
 }
-
  
         
 </script>
 
 <style scoped>
-
+a{
+  text-decoration: none;
+}
 
 .blink-hard { 
   animation: pulse 4s infinite;
@@ -41,9 +44,9 @@ export default {
     opacity: 0;
   }
 }
-/* .btn-mod.btn-large {
+.btn-mod.btn-large {
     height: auto;
-    padding: 13px 52px;
+    padding: 10px 52px;
     font-size: 15px;
     border-radius: 30px;
 }
@@ -55,6 +58,7 @@ export default {
 }
 
 .btn-mod, a.btn-mod {
+  margin-top: 30px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -86,7 +90,7 @@ export default {
     background:#9dd8e0;
     outline: none;
     
-} */
+}
 
 .container {
    height:100vh;
