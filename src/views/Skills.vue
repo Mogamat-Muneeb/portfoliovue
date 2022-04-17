@@ -10,7 +10,7 @@
         </div>
          <div class="logo">
             <img src="../assets/css.png">
-              <span class="logotext">CSS</span>
+              <span class="logotext">CSS3</span>
         </div>
         <div class="logo">
             <img src="../assets/bootstrap.png">
@@ -38,7 +38,7 @@
         </div> -->
                <div class="logo">
            <img src="https://i.postimg.cc/mkhsRsDn/file-type-mongo-icon-130383.png">  
-              <span class="logotext">MONGO</span>
+              <span class="logotext">MONGODB</span>
         </div>
               <div class="logo">
            <img src=" https://i.postimg.cc/3N2P3xhn/postgresql-original-logo-icon-146391.png">  

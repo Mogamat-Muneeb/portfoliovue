@@ -128,7 +128,7 @@ p{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background: rgba(0, 0, 0, 0.5);
   border-radius:6px;
 }

@@ -5,7 +5,7 @@
             <li><a href="https://www.linkedin.com/in/mogamat-muneeb-014769224/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
 
         </ul>
-        <p class="p fw-bold ">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Mogamat Muneeb Davids</p>
+        <p class="p fw-bold ">© <span style="font-size:13.5px;">2022</span> Made with <i class="fa fa-heart"></i> by Mogamat Muneeb Davids</p>
   </div>
 </template>
 

@@ -1,0 +1,28 @@
+[debug] [2022-04-17T07:19:13.101Z] ----------------------------------------------------------------------
+[debug] [2022-04-17T07:19:13.103Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\davim\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-17T07:19:13.104Z] CLI Version:   10.2.0
+[debug] [2022-04-17T07:19:13.104Z] Platform:      win32
+[debug] [2022-04-17T07:19:13.104Z] Node Version:  v16.13.2
+[debug] [2022-04-17T07:19:13.117Z] Time:          Sun Apr 17 2022 09:19:13 GMT+0200 (South Africa Standard Time)
+[debug] [2022-04-17T07:19:13.118Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-17T07:19:13.121Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-04-17T07:19:13.201Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-17T07:19:13.201Z] > authorizing via signed-in user (davimuneeb785@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\davim\OneDrive\Desktop\Work\Projects\M.Muneeb Davids\FRONTEND
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-04-17T07:19:44.811Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-04-17T07:19:44.811Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}

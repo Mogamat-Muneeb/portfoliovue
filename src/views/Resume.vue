@@ -6,14 +6,14 @@
       <div class="info">
         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i> 2016-2020:</h4>
         <h3 class="title" style="font-weight:bold;color:#1e90ff;">Vootrekker High School</h3>
-        <p style="font-weight:500">I started and matriculated at Voortrekker High School in Kenilworth. I was part of the RCL leadership team from Gr.10 to Gr.12 and played First-Team rugby since Gr.10 as a Scrumhalf. I was the Deputy Head Boy in Matric. </p>
+        <p style="font-weight:500">I started and matriculated at Voortrekker High School in Kenilworth. I was part of the RCL leadership team from Gr.10 to Gr.12 and played First-Team rugby since Gr.10 as a Scrumhalf. As well as being the Deputy Head Boy in Matric. </p>
     </div>
       </div>
       <div class="card">
         <div class="info">
         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i> 2021-Present:</h4>
         <h3 class="title" style="font-weight:bold;color:#1e90ff;">Life Choices Coding Academy</h3>
-        <p style="font-weight:500">A Bootcamp program that provides you with the core fundamentals of Web Development, learning coding languages such as HTML, CSS, Javascript, and more coding techniques. We taught interpersonal and self-development skills to take us further in life. </p>
+        <p style="font-weight:500">A Bootcamp program that provides you with the core fundamentals of Web Development, learning coding languages such as HTML, CSS, JavaScript, and more coding techniques. We taught interpersonal and self-development skills to take us further in life. </p>
     </div>
       </div>
     <h3  style="color:#00bfff;">Work & Experience</h3>
@@ -42,7 +42,7 @@
         <div class="info">
         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-briefcase"></i> Feb 2022-present:</h4>
         <h3 class="title" style="font-weight:bold;color:#1e90ff;">Lc Studio</h3>
-        <p style="font-weight:500">An internship where the fundamentals of working in actual web apps teams is put into practice.</p>
+        <p style="font-weight:500">An internship where the fundamentals of working in actual web apps teams is put into practice. As well as upskilling myself in coding. </p>
        </div>
       </div> 
 

@@ -11,21 +11,31 @@
   <div class=" col-sm-6">
   <h1 class="hi" style="color:#00bfff;" ></h1>
   <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;"></h6>
-  <p>I am hardworking and time conscious of anything that requires my attention. I'm always willing to assist others when in need. I'm very comfortable around lots of people. I'm confident and open-minded.</p>
-  <p>My passion for technology and coding began when I realized that technology was the future. I have always wondered how web applications and mobile apps are built, which is why I decided to study Web Development and Coding.</p>
+  <p>Hi! I’m <span style="color: #00bfff;">Mogamat Muneeb Davids</span> , and I'm a developer who has a passion for building clean web applications with instinctive functionality. I enjoy turning ideas into reality via coding. I'm a hardworking and time-conscious person. I'm always willing to assist others when in need as well as being comfortable around people. I'm confident and am open to new ideas...</p>
+  <p>My passion for technology and coding began when I realized that technology was the future. I have always wondered how Web applications and Mobile apps were built, which is why I decided to dig deeper into Web Development and Coding.</p>
 
   <div class="about-profile">   
     <ul class="admin-profile">
 
-    <li><span class="pro-title"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
-    <li><span class="pro-title"> Country    </span> <span class="pro-detail">South Africa</span></li>
-    <li><span class="pro-title"> Location   </span> <span class="pro-detail">Cape Town</span></li>
-    <li><span class="pro-title"> E-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
-    <li><span class="pro-title"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
-    <li><span class="pro-title"> Freelance  </span> <span class="pro-detail">Available</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> Country    </span> <span class="pro-detail">South Africa</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> Location   </span> <span class="pro-detail">Cape Town</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> E-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
+    <li><span class="pro-title" style="color:#1e90ff;"> Freelance  </span> <span class="pro-detail">Available</span></li>
     </ul>
  </div>
- 
+ <div class="col d d-flex ">
+      <div class="hire">
+       <router-link :to="{ name: 'Contact'}"><button class="btn btn-mod btn-border btn-large">HIRE ME</button></router-link>
+ </div>
+ <div class="download">
+      <button class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">DOWNLOAD CV</span></a>
+     </button>
+ </div>
+ </div>
+
+
   </div>
 </div>
 
@@ -42,6 +52,56 @@ export default {
 </script>
 
 <style scoped>
+.d{
+    margin-left: -13px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    margin-left: 10px;
+}
+.btn-mod.btn-large {
+    height: auto;
+    padding: 10px 52px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+    color: #fff;
+    border: 1px solid #1e90ff;
+    background: #1e90ff;
+}
+
+.btn-mod, a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: rgba(34,34,34, .9);
+    border: 1px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+    color: white;
+    border-color:#9dd8e0 ;
+    background:#9dd8e0;
+    outline: none;
+    
+}
 p{
     font-weight: 500;
 }
@@ -150,4 +210,46 @@ ul li, ol li {
 }
 
 }
+
+@media only screen and (max-width: 494px) {
+ .btn{
+    margin-left: 2px;
+}
+.btn-mod.btn-large {
+    height: auto;
+    padding: 15px 30px;
+    font-size: 11px;
+    border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+    color: #fff;
+    border: 1px solid #1e90ff;
+    background: #1e90ff;
+}
+
+.btn-mod, a.btn-mod {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+    /* padding: 4px 13px; */
+    /* color: #fff; */
+    /* background: rgba(34,34,34, .9); */
+    border: 1px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-decoration: none !important;
+    letter-spacing: 0.3px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+}
+
 </style>

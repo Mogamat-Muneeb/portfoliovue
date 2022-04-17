@@ -143,9 +143,8 @@ h1.headin{
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .content:hover .content-details{

@@ -3,15 +3,15 @@
     <div class="row">
       <div class="name col">
         <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
-        <h1 style="font-size:60px;">M.Muneeb Davids</h1>
+        <h1 style="font-size:60px;">Mogamat Muneeb Davids</h1>
         <h1 style="color:;font-size:20px;">An Aspiring<span class="blink">
     <span class="blink-hard" style="color:#1e90ff;font-size:20px;">
     Full Stack Developer
     </span>
     
   </span></h1>
-         <button type="submit" class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">RESUME</span></a>
-     </button>
+         <!-- <button type="submit" class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">DOWNLOAD CV</span></a>
+     </button> -->
       </div>
       <div class="col">
         <img src="https://i.postimg.cc/z5N3Nhgh/Whats-App-Image-2022-02-18-at-10-22-51-AM.jpg" alt="">
@@ -93,15 +93,10 @@ a{
 }
 
 .container {
-   height:100vh;
   padding-top: 150px;
   margin-bottom:50px;
- 
 }
-/* .row{
-    display: flex;
-  flex-wrap:wrap;
-} */
+
 .name{
   padding-top:135px;
   padding-left: 135px;
@@ -127,16 +122,9 @@ img{
   height:450px;
   object-fit: cover;
   padding-top: 30px;
-  /* padding-right: 130px; */
-  /* padding-left:58px; */
-  
+
 }
-.container {
-   height:90vh;
-   
-  /* padding-top: 150px; */
- 
-}
+
 .row {
   overflow-x: hidden;
 }

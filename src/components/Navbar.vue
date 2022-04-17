@@ -75,7 +75,7 @@ export default {
 }
 
 .navbar-brand {
-    position: absolute;
+    position: fixed;
     left: 15px;
     top: 5.5px;
 }
