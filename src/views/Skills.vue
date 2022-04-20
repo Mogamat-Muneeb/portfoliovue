@@ -51,6 +51,10 @@
            <img src=" https://i.postimg.cc/qv62qhSJ/file-type-docker-icon-130643.png">  
               <span class="logotext">DOCKER</span>
         </div>
+              <div class="logo">
+           <img src="https://i.postimg.cc/G3yhbzrc/figma-macos-bigsur-icon-190183.png">  
+              <span class="logotext">FIGMA</span>
+        </div>
         </div>
      
     
