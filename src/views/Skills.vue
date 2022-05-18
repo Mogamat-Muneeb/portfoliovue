@@ -13,17 +13,21 @@
               <span class="logotext">CSS3</span>
         </div>
         <div class="logo">
-            <img src="../assets/bootstrap.png">
-            <span class="logotext">BOOTSTRAP</span>
-        </div>
-                    <div class="logo">
            <img src="../assets/javascript.png">  
               <span class="logotext">JAVASCRIPT</span>
+        </div>
+        <div class="logo">
+            <img src="../assets/bootstrap.png">
+            <span class="logotext">BOOTSTRAP</span>
         </div>
         </div>
         
        
         <div class="col">
+          <div class="logo">
+          <img src="../assets/resposive.png">  
+            <span class="logotext">RESPONSIVE DESIGN</span>
+        </div>
             <div class="logo">
            <img src="../assets/vue.png">  
               <span class="logotext">VUE</span>
@@ -32,10 +36,6 @@
            <img src="../assets/node.png">  
               <span class="logotext">NODE</span>
         </div>
-           <!-- <div class="logo">
-           <img src="../assets/mysql.png">  
-              <span class="logotext">MYSQL</span>
-        </div> -->
                <div class="logo">
            <img src="https://i.postimg.cc/mkhsRsDn/file-type-mongo-icon-130383.png">  
               <span class="logotext">MONGODB</span>
