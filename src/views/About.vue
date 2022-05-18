@@ -3,7 +3,7 @@
  <div class="container">
     
 <div class="row row1 d-flex justify-content-center">
-    <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">About Me</span> </h1>
+    <h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">About Me</span> </h1>
   <div class="box d-flex justify-content-center  col-sm-6 ">
       <img class="photo" src="https://i.postimg.cc/Y9PqgTJG/Muneeb-min.jpg" alt="" >
   </div>
@@ -11,7 +11,7 @@
   <div class=" col-sm-6">
   <h1 class="hi" style="color:#00bfff;" ></h1>
   <h6 class="h d-flex justify-content-start fw-bold" style="color: #1e90ff;"></h6>
-  <p>Hi! I’m <span style="color: #00bfff;">Mogamat Muneeb Davids</span> , and I'm a developer who has a passion for building clean web applications with instinctive functionality. I enjoy turning ideas into reality via coding. I'm a hardworking and time-conscious person. I'm always willing to assist others when in need as well as being comfortable around people. I'm confident and am open to new ideas...</p>
+  <p>Hi! I’m <span style="color: #00bfff;" class="fw-bold">Mogamat Muneeb Davids</span> , and I'm a developer who has a passion for building clean web applications with instinctive functionality. I enjoy turning ideas into reality via coding. I'm a hardworking and time-conscious person. I'm always willing to assist others when in need as well as being comfortable around people. I'm confident and am open to new ideas...</p>
   <p>My passion for technology and coding began when I realized that technology was the future. I have always wondered how Web applications and Mobile apps were built, which is why I decided to dig deeper into Web Development and Coding.</p>
 
   <div class="about-profile">   
@@ -30,8 +30,7 @@
        <router-link :to="{ name: 'Contact'}"><button class="btn btn-mod btn-border btn-large">HIRE ME</button></router-link>
  </div>
  <div class="download">
-      <button class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">DOWNLOAD CV</span></a>
-     </button>
+      <button class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download">DOWNLOAD CV</a></button>
  </div>
  </div>
 
@@ -57,6 +56,10 @@ export default {
 }
 a{
     text-decoration: none;
+    color:white
+}
+a:hover{
+    color: #012966;
 }
 .btn{
     margin-left: 10px;
@@ -96,10 +99,11 @@ a{
 }
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
-    color: white;
+     color:  #012966;
     border-color:#9dd8e0 ;
     background:#9dd8e0;
     outline: none;
+    
     
 }
 p{

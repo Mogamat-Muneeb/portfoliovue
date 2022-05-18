@@ -1,5 +1,5 @@
 <template>
-  <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Skills</span> </h1>
+  <h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Skills</span> </h1>
   <div class="container  d-flex justify-content-center">
     <div class="row">
       <div class="col">
@@ -47,20 +47,24 @@
         </div>
         <div class="col">
    
-          <div class="logo">
+          <!-- <div class="logo">
            <img src=" https://i.postimg.cc/qv62qhSJ/file-type-docker-icon-130643.png">  
               <span class="logotext">DOCKER</span>
-        </div>
+        </div> -->
               <div class="logo">
            <img src="https://i.postimg.cc/G3yhbzrc/figma-macos-bigsur-icon-190183.png">  
               <span class="logotext">FIGMA</span>
+        </div>
+              <div class="logo">
+           <img src="https://i.postimg.cc/9M9Nz5KW/file-type-tailwind-icon-130128.png">  
+              <span class="logotext">TAILWIND</span>
         </div>
         </div>
      
     
       
          </div>
-         <h1 class="head d-flex justify-content-center"><span  style="color:#1e90ff;">Tools</span> </h1>
+         <h1 class="head d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Tools</span> </h1>
          <div class="col">
           <div class="logo">
             <img src="../assets/vscode.png">  

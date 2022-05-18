@@ -5,11 +5,11 @@
         <h6 style="font-size: 15px;color: #00bfff;">HEY! I AM</h6>
         <h1 style="font-size:60px;">Mogamat Muneeb Davids</h1>
         <h1 style="color:;font-size:20px;">An Aspiring<span class="blink">
-    <span class="blink-hard" style="color:#1e90ff;font-size:20px;">
-    Full Stack Developer
-    </span>
-    
-  </span></h1>
+          <span class="blink-hard" style="color:#1e90ff;font-size:20px;">
+          Frontend Developer
+          </span>
+          </span>
+        </h1>
          <!-- <button type="submit" class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/uc?id=1yXlNAPQ0a-vX-VZc2Si3XTadV9uj3dJl&export=download"><span style="color:white">DOWNLOAD CV</span></a>
      </button> -->
       </div>

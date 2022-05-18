@@ -1,5 +1,5 @@
 <template>
- <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Projects</span> </h1>
+ <h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Projects</span> </h1>
 
 
   <div class="container">
@@ -234,7 +234,7 @@ p{
 
 p{
   position: absolute;
-  top: -50%;
+  top: 47%;
   right:20%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -273,7 +273,7 @@ p{
 }
 .fas{
   padding-top: 25px;
-    font-size:30px;
+    font-size:20px;
     display: column;
     color: white;
     float: left;
@@ -282,7 +282,7 @@ p{
 }
 .far{
     padding-top: 25px;
-    font-size:30px;
+    font-size:20px;
     display: column;
     color: white;
 }
@@ -293,8 +293,8 @@ h1{
   margin-top:40px;
 }
 
-
-@media only screen and (max-width: 494px) {
+/* 
+@media only screen and (max-width: 495px) {
     h1.headin{
     padding-top:3px;
 }
@@ -316,7 +316,7 @@ h1{
 }
 p{
   position:relative;
-  bottom: 40px;
+top: 47% ;
   color: white;
   left:50%
   
@@ -328,5 +328,6 @@ p{
   position: relative;
   bottom: 50px;
 }
-}
+} */
+
 </style>

@@ -28,7 +28,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color:  #012966;
-  
+ 
+}
+
+body{
+   overflow-x: hidden;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
+body::-webkit-scrollbar{
+  display:none;
 }
 
 #nav {

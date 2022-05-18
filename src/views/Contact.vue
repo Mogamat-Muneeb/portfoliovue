@@ -1,7 +1,7 @@
 <template>
 
 
-<h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Contact Me</span> </h1>
+<h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Contact Me</span> </h1>
   <div class="containe d-flex justify-content-center" id="contact">
 
 
@@ -125,7 +125,8 @@ h1.headin{
   display:flex;
   padding: none;
 
-  height:100vh;
+  /* height:100vh; */
+  margin-bottom: 20px;
 }
 /* contact */
 #success-message {
@@ -213,7 +214,7 @@ h1.headin{
 }
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
-    color: white;
+     color:  #012966;
     border-color:#9dd8e0 ;
     background:#9dd8e0;
     outline: none;

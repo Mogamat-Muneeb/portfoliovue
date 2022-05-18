@@ -1,5 +1,5 @@
 <template>
-   <h1 class="headin d-flex justify-content-center"><span  style="color:#1e90ff;">Testimonials</span> </h1>
+   <h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Testimonials</span> </h1>
      
 
    <div class="container">
