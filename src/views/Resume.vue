@@ -93,7 +93,7 @@ h1{
 
 .card:hover{
   transform: scale(1.1);
-  transition:.5s;
+  transition:1.5s;
 }
 
 .info {

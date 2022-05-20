@@ -109,5 +109,8 @@ img{
  
 }
 
-
+.navbar-brand:hover{
+  transform: translate(-3px, -3px);
+   transition:1.5s
+}
 </style>

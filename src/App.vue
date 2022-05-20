@@ -56,6 +56,12 @@ body::-webkit-scrollbar{
   text-decoration: none;
 }
 
+#nav a:hover{
+  font-weight: bold;
+  color:#00bfff;
+  text-decoration:none; 
+  transition:0.5s
+}
 
 
 

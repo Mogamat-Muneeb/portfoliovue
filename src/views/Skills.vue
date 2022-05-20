@@ -20,14 +20,14 @@
             <img src="../assets/bootstrap.png">
             <span class="logotext">BOOTSTRAP</span>
         </div>
-        </div>
-        
-       
-        <div class="col">
           <div class="logo">
           <img src="../assets/resposive.png">  
             <span class="logotext">RESPONSIVE DESIGN</span>
         </div>
+        </div>
+        
+       
+        <div class="col">
             <div class="logo">
            <img src="../assets/vue.png">  
               <span class="logotext">VUE</span>
@@ -146,6 +146,7 @@ h1.headin{
 }
 .logo:hover{
   transform: translate(-3px, -3px);
+   transition:0.5s
 }
 img{
   width:125px;

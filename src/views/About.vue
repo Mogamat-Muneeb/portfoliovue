@@ -14,8 +14,8 @@
   <p>Hi! I’m <span style="color: #00bfff;" class="fw-bold">Mogamat Muneeb Davids</span> , and I'm a developer who has a passion for building clean web applications with instinctive functionality. I enjoy turning ideas into reality via coding. I'm a hardworking and time-conscious person. I'm always willing to assist others when in need as well as being comfortable around people. I'm confident and am open to new ideas...</p>
   <p>My passion for technology and coding began when I realized that technology was the future. I have always wondered how Web applications and Mobile apps were built, which is why I decided to dig deeper into Web Development and Coding.</p>
 
-  <div class="about-profile">   
-    <ul class="admin-profile">
+  <div class="about-profile" >   
+    <div class="admin-profile">
 
     <li><span class="pro-title" style="color:#1e90ff;"> D.O.B      </span> <span class="pro-detail">20/08/2001</span></li>
     <li><span class="pro-title" style="color:#1e90ff;"> Country    </span> <span class="pro-detail">South Africa</span></li>
@@ -23,7 +23,7 @@
     <li><span class="pro-title" style="color:#1e90ff;"> E-mail     </span> <span class="pro-detail">davimuneeb785@gmail.com</span></li>
     <li><span class="pro-title" style="color:#1e90ff;"> Phone      </span> <span class="pro-detail">+ (27) 76 162 1649</span></li>
     <li><span class="pro-title" style="color:#1e90ff;"> Freelance  </span> <span class="pro-detail">Available</span></li>
-    </ul>
+    </div>
  </div>
  <div class="col d d-flex ">
       <div class="hire">
@@ -76,6 +76,7 @@ a:hover{
     color: #fff;
     border: 1px solid #1e90ff;
     background: #1e90ff;
+     transition:1s
 }
 
 .btn-mod, a.btn-mod {
@@ -117,7 +118,7 @@ h1{
 
 .container {
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   
     
    
@@ -159,20 +160,18 @@ h1{
 }
 .about-profile li{
     display: flex;
-    
     width:300px;
 }
 .about-profile .pro-title {
     font-weight: 700;
-    /* color: #2c3e50; */
     position: relative;
     width: 120px;
     display: inline-block;
     margin-bottom: 5px;
-    
 }
 
 .pro-title{
+
     margin-left: -183px;
 }
 
@@ -192,8 +191,6 @@ ul li, ol li {
 
 @media screen and (max-width: 494px){
     .photo{
-
-    
     height: 270px;
     width: 270px;
     object-fit:cover;
@@ -234,16 +231,9 @@ ul li, ol li {
 }
 
 .btn-mod, a.btn-mod {
-    /* -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; */
-    /* padding: 4px 13px; */
-    /* color: #fff; */
-    /* background: rgba(34,34,34, .9); */
     border: 1px solid transparent;
     font-size: 11px;
     font-weight: 400;
-    /* text-transform: uppercase; */
     text-decoration: none !important;
     letter-spacing: 0.3px;
     -webkit-border-radius: 0;
@@ -253,8 +243,6 @@ ul li, ol li {
     -moz-box-shadow: none;
     box-shadow: none;
 }
-
-
 }
 
 

@@ -135,7 +135,7 @@ p{
 
 .bucket:hover .overlay {
   opacity: 1;
-  
+   transition:1s
   
   
 }

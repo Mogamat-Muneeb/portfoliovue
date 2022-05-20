@@ -119,6 +119,7 @@ h1.headin{
     /* filter: blur(8px);
   -webkit-filter: blur(8px); */
   filter: brightness(40%);
+   transition:1s
   
 }
 
@@ -151,6 +152,7 @@ h1.headin{
   top: 50%;
   left: 50%;
   opacity: 1;
+   transition:1s
 }
 h5{
   color: #1e90ff;

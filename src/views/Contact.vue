@@ -170,6 +170,7 @@ h1.headin{
 
 .form-group .form-control:hover {
 	border: solid 1px#1e90ff;
+  transition:1s
 }
 
 
@@ -185,6 +186,7 @@ h1.headin{
     color: #fff;
     border: 1px solid #1e90ff;
     background: #1e90ff;
+    transition:1s
 }
 
 .btn-mod, a.btn-mod {
