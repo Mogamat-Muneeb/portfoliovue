@@ -1,7 +1,8 @@
 <template>
  <h1 class="headin d-flex justify-content-center fw-bold"><span  style="color:#1e90ff;">Resume</span> </h1>
-       
-      <h3  style="color:#00bfff;" >Education</h3>
+       <div class="container">
+         <div class="row">
+            <h3  style="color:#00bfff;" >Education</h3>
       <div class="card">
       <div class="info">
         <h4 class="date" style="font-size:13px;font-weight:bold; "><i class="fas fa-graduation-cap"></i> 2016-2020:</h4>
@@ -46,6 +47,9 @@
        </div>
       </div> 
 
+         </div>
+       </div>
+     
      
       
   
@@ -78,7 +82,7 @@ h1{
     margin-right:auto;
     margin-left:auto;
     position: initial;
-    width:70%;
+    width:45%;
     height:270px;
     border-radius:10px;
     margin-top:20px;
@@ -106,5 +110,30 @@ h1{
 h3{
   font-size:18px;
 }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    text-align:left;
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right:auto;
+    margin-left:auto;
+    position: initial;
+    width:100%;
+    height:270px;
+    border-radius:10px;
+    margin-top:20px;
+    border:5px solid white;
+      box-shadow:8px 8px 15px #e4e4e4;
+    margin-bottom:50px;
+}
+
 }
 </style>
