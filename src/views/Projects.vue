@@ -182,11 +182,11 @@ p{
   text-align: center;
 }
 .fas:hover{
-    color:#012966;
+    color:#00bfff;
      
 }
 .far:hover{
-    color:#012966;
+    color:#00bfff;
      
 }
 

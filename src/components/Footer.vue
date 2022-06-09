@@ -25,6 +25,7 @@ export default {
   background:white;
     box-shadow:8px 8px 15px #e4e4e4;
   height:130px;
+  width:100%;
 }
 
 

@@ -55,10 +55,10 @@
            <img src="https://i.postimg.cc/G3yhbzrc/figma-macos-bigsur-icon-190183.png">  
               <span class="logotext">FIGMA</span>
         </div>
-              <div class="logo">
+              <!-- <div class="logo">
            <img src="https://i.postimg.cc/9M9Nz5KW/file-type-tailwind-icon-130128.png">  
               <span class="logotext">TAILWIND</span>
-        </div>
+        </div> -->
         </div>
      
     
@@ -146,7 +146,7 @@ h1.headin{
 }
 .logo:hover{
   transform: translate(-3px, -3px);
-   transition:0.5s
+   transition:0.3s
 }
 img{
   width:125px;

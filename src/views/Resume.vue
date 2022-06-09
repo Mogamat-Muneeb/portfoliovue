@@ -136,4 +136,33 @@ h3{
 }
 
 }
+
+@media only screen and (max-width: 584px) {
+  .container{
+    padding-left:12% ;
+    padding-right:12% ;
+  }
+    .card{
+    text-align:left;
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right:auto;
+    margin-left:auto;
+    position: initial;
+    width:100%;
+    height:270px;
+    border-radius:10px;
+    margin-top:10px;
+    border:5px solid white;
+    box-shadow:8px 8px 15px #e4e4e4;
+    margin-bottom:40px;
+    /* background:pink */
+}
+.card:hover{
+  transform: scale(1.1);
+  transition:1s;
+}
+}
 </style>

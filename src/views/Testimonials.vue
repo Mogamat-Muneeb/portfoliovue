@@ -35,7 +35,7 @@ export default {
     components:{ Loader },
         mounted(){
           this.loading = true;
-            fetch('  https://myport-backend.herokuapp.com/testimonials')
+            fetch('https://myport-backend.herokuapp.com/testimonials')
             .then(res => res.json())
             .then(data => {this.testimonials = data; 
             this.loading = false} )

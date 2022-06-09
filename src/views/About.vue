@@ -30,7 +30,7 @@
        <router-link :to="{ name: 'Contact'}"><button class="btn btn-mod btn-border btn-large">HIRE ME</button></router-link>
  </div>
  <div class="download">
-      <button class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/file/d/1YIhBJGO8LqJHhIq_pEiUFy9YIm_DSWFn/view?usp=sharing" target="_blank">VIEW CV</a></button>
+      <button class="btn btn-mod btn-border btn-large"><a href="https://drive.google.com/file/d/121fXV3iBIxgDxjpQCVJnY3mfAW5l7tfI/view?usp=sharing" target="_blank">VIEW CV</a></button>
  </div>
  
  </div>
